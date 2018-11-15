@@ -25,7 +25,7 @@ Classname::Classname(int a = 0){...}
 
 > 当在一个类中存在多个默认构造函数的时候，需要如何处理?
 
-```
+```cpp
 class Foo {
 public:
     Foo() // default constructor
@@ -45,7 +45,7 @@ public:
 
 针对`Foo`类的情况，在创建对象时需要显式的说明使用哪一个构造函数。   
 例如：
-```
+```cpp
 Foo f1();
 Foo f2(3);
 //Foo f3; //'Foo::Foo' ambigious to overload function
