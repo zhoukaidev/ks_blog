@@ -16,10 +16,11 @@ c++中包含三种构造函数：
 ### 构造函数介绍
 
 * [默认构造函数][defaultConstructor]
-* 拷贝构造函数
+* [拷贝构造函数][copyConstructor]
 * 拷贝赋值运算符
 * 移动构造函数
 * 移动赋值运算符
 
 [referenceManual]:https://en.cppreference.com/w/cpp/language/classes 
 [defaultConstructor]:http://dangercc.com/wp/2018/11/10/default-constructor/
+[copyConstructor]:http://dangercc.com/wp/2018/11/15/copy-constructor/
