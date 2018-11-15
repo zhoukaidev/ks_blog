@@ -21,5 +21,5 @@ c++中包含三种构造函数：
 * 移动构造函数
 * 移动赋值运算符
 
-[referenceManual]:(https://en.cppreference.com/w/cpp/language/classes) 
-[defaultConstructor]:(http://dangercc.com/wp/2018/11/10/default-constructor/)
+[referenceManual]:https://en.cppreference.com/w/cpp/language/classes 
+[defaultConstructor]:http://dangercc.com/wp/2018/11/10/default-constructor/
