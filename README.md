@@ -7,7 +7,10 @@
     * ["virtual" and "override"]()
 * c++标准库
     * c++多线程
-        * [std::thread]()
+        * [std::thread][thread]
         * [std::mutex]()
 * c++对象模型
 * c++内容杂谈
+
+
+[thread]:./standardLibrary/multiThread/thread.md
