@@ -48,7 +48,13 @@ if (t.joinable()){
 }
 ```
 
-### 问题总结
+### thread中的异常
+
+1. thread对象退出作用域时，要检测`joinable`的状态，在状态为`true`
+的时候退出作用域会抛出异常
+
+2. 当向`joinable`为`true`的`thread`对象赋值新的对象时，会导致
+   抛出异常
 
 
 [thread]:https://en.cppreference.com/w/cpp/header/thread
