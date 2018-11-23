@@ -2,6 +2,7 @@
 
 * 参考手册: [std::thread][thread]
 * 头文件 "#include \<thread\>"
+* [示例代码下载][sampleCode]
   
 c++标准库中提供两种方法来创建线程，分别为`std::async`与`std::thread`,本章主要介绍`std::thread`的相关用法。
 
@@ -58,3 +59,4 @@ if (t.joinable()){
 
 
 [thread]:https://en.cppreference.com/w/cpp/header/thread
+[sampleCode]: https://www.github.com/zhoukaisspu
