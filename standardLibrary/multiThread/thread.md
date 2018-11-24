@@ -59,4 +59,4 @@ if (t.joinable()){
 
 
 [thread]:https://en.cppreference.com/w/cpp/header/thread
-[sampleCode]: https://www.github.com/zhoukaisspu
+[sampleCode]: https://github.com/zhoukaisspu/blog_code/tree/master/standLibrary/thread
