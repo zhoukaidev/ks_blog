@@ -12,8 +12,11 @@
         * std::mutex
 * c++对象模型
 * c++内容杂谈
+    * [c++委托构造函数(Delegating constructor)][delegatingConstructor]
+
 
 
 [thread]:./standardLibrary/multiThread/thread.md
 [constructor]:./coreFeature/specialMemberFunction/constructor.md
 [threadNativeHandle]:./standardLibrary/multiThread/thread_nativeHandle.md
+[delegatingConstructor]:./others/delegating_constructor.md
