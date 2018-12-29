@@ -13,6 +13,7 @@
 * c++对象模型
 * c++内容杂谈
     * [c++委托构造函数(Delegating constructor)][delegatingConstructor]
+    * [单例模式(signton pattern)与std::call_once][singleton_pattern_call_once]
 
 
 
@@ -20,3 +21,5 @@
 [constructor]:./coreFeature/specialMemberFunction/constructor.md
 [threadNativeHandle]:./standardLibrary/multiThread/thread_nativeHandle.md
 [delegatingConstructor]:./others/delegating_constructor.md
+[singleton_pattern_call_once]:./others/call_once.md
+
