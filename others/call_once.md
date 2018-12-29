@@ -16,32 +16,33 @@
 ```cpp
 class SingleTon {
 public:
-	static SingleTon* getInstance(void)
-	{
-		std::lock_guard<std::mutex> lk(s_mtx);
-		if (s_p == nullptr) {
-			s_p = new SingleTon();
-		}
-		return s_p;
-	}
+    static SingleTon* getInstance(void)
+    {
+        std::lock_guard<std::mutex> lk(s_mtx);
+        if (s_p == nullptr) {
+            s_p = new SingleTon();
+        }
+        return s_p;
+    }
 public:
-	int getValue() {
-		return m_int;
-	}
+    int getValue() {
+        return m_int;
+    }
 private:
-	static std::mutex s_mtx;
-	static SingleTon* s_p;
-	SingleTon(SingleTon&) = delete;
-	SingleTon& operator=(SingleTon&) = delete;
-	SingleTon(SingleTon&&) = delete;
-	SingleTon& operator=(SingleTon&&) = delete;
-	SingleTon() {
-		m_int = 0;
-	}
+    static std::mutex s_mtx;
+    static SingleTon* s_p;
+    SingleTon(SingleTon&) = delete;
+    SingleTon& operator=(SingleTon&) = delete;
+    SingleTon(SingleTon&&) = delete;
+    SingleTon& operator=(SingleTon&&) = delete;
+    SingleTon() {
+        m_int = 0;
+    }
 private:
-	int m_int;
+    int m_int;
 };
 ```
+
 上面的实现中，可以保证在多线程环境下调用`getInstance`
 是安全的，但在每次调用该函数的时候，都要求获取`mutex`,
 这会降低该函数的性能。
