@@ -50,3 +50,33 @@ private:
 
 在c++中可以提供一个可调用对象(fn)给`std::call_once`,该函数
 可以确保fn只被调用一次。
+
+```cpp
+class SingleTon {
+public:
+    static SingleTon* getInstance(void)
+    {
+        std::call_once(s_flag,initSingleTon);
+        return s_p;
+    }
+public:
+    int getValue() {
+        return m_int;
+    }
+private:
+    static SingleTon* s_p;
+    static std::once_flag s_flag;
+    static void ininSingleTon() {
+        s_p = new SingleTon();
+    }
+    SingleTon(SingleTon&) = delete;
+    SingleTon& operator=(SingleTon&) = delete;
+    SingleTon(SingleTon&&) = delete;
+    SingleTon& operator=(SingleTon&&) = delete;
+    SingleTon() {
+        m_int = 0;
+    }
+private:
+    int m_int;
+};
+```
