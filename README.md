@@ -15,6 +15,7 @@
     * [c++委托构造函数(Delegating constructor)][delegatingConstructor]
     * 线程安全的单例模式(signton pattern) 
         * [借助std::mutex或std::call_once实现][singleton_pattern_call_once]
+        * [借助double check或static member实现][singleton_atomic_static_member]
 
 
 
@@ -23,4 +24,5 @@
 [threadNativeHandle]:./standardLibrary/multiThread/thread_nativeHandle.md
 [delegatingConstructor]:./others/delegating_constructor.md
 [singleton_pattern_call_once]:./others/singleTon_mutex_call_once.md
+[singleton_atomic_static_member]:./others/singleTon_atomic_static_member.md
 
