@@ -13,7 +13,8 @@
 * c++对象模型
 * c++内容杂谈
     * [c++委托构造函数(Delegating constructor)][delegatingConstructor]
-    * [单例模式(signton pattern)与std::call_once][singleton_pattern_call_once]
+    * 线程安全的单例模式(signton pattern) 
+        * [借助std::mutex或std::call_once实现][singleton_pattern_call_once]
 
 
 
