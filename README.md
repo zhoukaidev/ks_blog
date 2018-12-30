@@ -22,5 +22,5 @@
 [constructor]:./coreFeature/specialMemberFunction/constructor.md
 [threadNativeHandle]:./standardLibrary/multiThread/thread_nativeHandle.md
 [delegatingConstructor]:./others/delegating_constructor.md
-[singleton_pattern_call_once]:./others/call_once.md
+[singleton_pattern_call_once]:./others/singleTon_mutex_call_once.md
 
