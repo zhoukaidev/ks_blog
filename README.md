@@ -13,7 +13,9 @@
             * mutex & shared_mutex
             * timed_mutex & recursive_mutex 
 * c++对象模型
-    * 函数内部static对象的构造与析构 
+    * static对象的构造与析构
+        * 函数内部static对象构造与析构
+        * 全局static对象构造与析构 
 * c++内容杂谈
     * [c++委托构造函数(Delegating constructor)][delegatingConstructor]
     * 线程安全的单例模式(signton pattern) 
