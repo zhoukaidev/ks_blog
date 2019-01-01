@@ -10,7 +10,7 @@
         * [std::thread][thread]
         * [std::thread::native_handle][threadNativeHandle]
         * 互斥量
-            * mutex & shared_mutex
+            * [mutex & shared_mutex][mutexSharedMutex]
             * timed_mutex & recursive_mutex 
 * c++对象模型
     * static对象的构造与析构
@@ -28,7 +28,9 @@
 [thread]:./standardLibrary/multiThread/thread.md
 [constructor]:./coreFeature/specialMemberFunction/constructor.md
 [threadNativeHandle]:./standardLibrary/multiThread/thread_nativeHandle.md
+[mutexSharedMutex]:./standardLibrary/multiThread/mutex_shared_mutex.md
 [delegatingConstructor]:./others/delegating_constructor.md
 [singleton_pattern_call_once]:./others/singleTon_mutex_call_once.md
 [singleton_atomic_static_member]:./others/singleTon_atomic_static_member.md
+
 
