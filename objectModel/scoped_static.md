@@ -25,16 +25,18 @@
 示例代码:
 
 ```cpp
+#include <iostream>
+
 struct Foo {
     Foo() {
         i = 0;
         std::cout << "Foo constructor" << std::endl;
     }
     ~Foo() {
-        std::cout<<"Foo destructor" << std::endl;
+        std::cout << "Foo destructor" << std::endl;
     }
     int i;
-}
+};
 
 struct Foo_2 {
     Foo_2() {
@@ -42,10 +44,10 @@ struct Foo_2 {
         std::cout << "Foo_2 constructor" << std::endl;
     }
     ~Foo_2() {
-        std::cout<<"Foo_2 destructor" << std::endl;
+        std::cout << "Foo_2 destructor" << std::endl;
     }
     int i;
-}
+};
 
 int fun_foo()
 {
@@ -60,4 +62,22 @@ int fun_foo_2()
     s_foo_2.i++;
     return s_foo_2.i;
 }
+
+int main()
+{
+
+    //fun_foo_2();
+    //fun_foo();
+    fun_foo();
+    fun_foo_2();
+    return 0;
+}
 ```
+#### static对象的析构顺序
+
+观察以上代码的输出，会发现当函数调用相反的时候，输出的log也是
+相反的，所以编译器是会创建相应的static对象初始链，在析构的时候，
+会根据该初始化进行析构，最后初始化的static对象会最开始析构。
+可以想象，在初始化时候，除了初始化该对象，还要把该对象指针放入
+初始化链表中。以此来决定相应对象的析构顺序。
+
