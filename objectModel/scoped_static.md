@@ -81,3 +81,34 @@ int main()
 可以想象，在初始化时候，除了初始化该对象，还要把该对象指针放入
 初始化链表中。以此来决定相应对象的析构顺序。
 
+#### 实现该函数的伪代码
+
+首先，static对象只会在第一次函数调用的时候初始化该对象，所以
+首先需要相应的标识符来标识该对象是否已经被初始化，其次将已经
+初始化的对象的地址放入相应的链表中来记录初始化顺序。
+
+```cpp
+int fun_foo()
+{
+    static Foo s_foo;
+    s_foo.i++;
+    return s_foo.i;
+}
+
+//伪码
+bool s_foo_init = false;
+int fun_foo()
+{
+    static Foo s_foo;
+    if(!s_foo_init){
+        enter_thread_guard;
+        Foo::Foo(s_foo);
+        s_foo_init = true;
+        link_list.push(&s_foo);
+        exit_thread_guard;
+    }
+    s_foo.i++;
+    return s_foo.i;
+}
+
+```
