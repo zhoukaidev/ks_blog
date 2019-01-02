@@ -100,15 +100,17 @@ bool s_foo_init = false;
 int fun_foo()
 {
     static Foo s_foo;
-    if(!s_foo_init){
-        enter_thread_guard;
-        Foo::Foo(s_foo);
-        s_foo_init = true;
-        link_list.push(&s_foo);
-        exit_thread_guard;
+    if(!s_foo_init){ // 第一次调用该函数
+        enter_thread_guard; // 进入线程安全
+        Foo::Foo(&s_foo); // 初始化s_foo;
+        s_foo_init = true; // 标记已经初始化
+        link_list.push(&s_foo); // 该对象地址放入链表中
+        exit_thread_guard; // 退出线程安全
     }
     s_foo.i++;
     return s_foo.i;
 }
 
 ```
+从上面的伪代码中，我们可以看到在实现相应的static对象可以采用
+的模型，以此来满足static对象的各种要求。
