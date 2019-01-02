@@ -14,7 +14,7 @@
             * timed_mutex & recursive_mutex 
 * c++对象模型
     * static对象的构造与析构
-        * 函数内部static对象构造与析构
+        * [函数内部static对象构造与析构][scopedStatic]
         * 全局static对象构造与析构 
 * c++内容杂谈
     * [c++委托构造函数(Delegating constructor)][delegatingConstructor]
@@ -33,4 +33,5 @@
 [singleton_pattern_call_once]:./others/singleTon_mutex_call_once.md
 [singleton_atomic_static_member]:./others/singleTon_atomic_static_member.md
 
+[scopedStatic]:./objectModel/scoped_static.md
 
