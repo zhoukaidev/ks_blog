@@ -5,6 +5,7 @@
     * c++析构函数
     * "default" and "delete"
     * "virtual" and "override"
+    * ["define"指示符][defineDirector]
 * c++标准库
     * c++多线程
         * [std::thread][thread]
@@ -34,4 +35,5 @@
 [singleton_atomic_static_member]:./others/singleTon_atomic_static_member.md
 
 [scopedStatic]:./objectModel/scoped_static.md
+[defineDirector]:./coreFeature/define.md
 
