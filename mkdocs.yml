@@ -1,4 +1,19 @@
 site_name: Knowledge Sharing
 site_author: Kai.Zhou
+theme:
+  language: 'zh'
+  name: 'material'
+  feature:
+    tabs: true
+markdown_extensions:
+  - admonition
 nav:
-        - 'introduction': ./JS/README.md
+  - 'start here': index.md
+  - 'javaScript':
+    - '对象设计': JS/ObjectOriented.md
+  - 'C++':
+    - '核心特性':
+      - '构造函数简介': C++/coreFeature/specialMemberFunction/constructor.md
+      - '默认构造函数': C++/coreFeature/specialMemberFunction/default_constructor.md
+      - '拷贝构造函数': C++/coreFeature/specialMemberFunction/copy_constructor.md
+      - '移动构造函数': C++/coreFeature/specialMemberFunction/move_constructor.md
