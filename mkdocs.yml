@@ -1,14 +1,22 @@
+# Set title for project documentation
 site_name: Knowledge Sharing
+
+# Set the name of author. This will add a meta data tag to the generated HTML header
 site_author: Kai.Zhou
+repo_url: https://github.com/zhoukaisspu/ks_blog
+copyright: 'Copyright &copy; 2019 - 2019 Kai.Zhou'
 theme:
   language: 'zh'
   name: 'material'
   feature:
     tabs: true
+  logo:
+    icon: 'cloud'
 markdown_extensions:
   - admonition
+  - codehilite
 nav:
-  - 'start here': index.md
+  - 'Home': index.md
   - 'javaScript':
     - '对象设计': JS/ObjectOriented.md
   - 'C++':
