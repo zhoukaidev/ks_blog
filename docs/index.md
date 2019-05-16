@@ -1,9 +1,6 @@
-
-
-index.md for mkdocs
-
 ## Thanks 3000
-在整个网站的
+
+整个网站的建设借助了很多开源工具的帮助:
 
 * [MkDocs](https://www.mkdocs.org/)
 * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/extensions/admonition/)
