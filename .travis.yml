@@ -16,4 +16,4 @@ install:
 - mkdocs --version
 - pip install mkdocs-material
 script:
--  mkdocs gh-deploy --clean --remote-branch master --remote-name git@github.com:zhoukaisspu/zhoukaisspu.github.io.git --force
+- mkdocs gh-deploy --clean --remote-branch master --remote-name git@github.com:zhoukaisspu/zhoukaisspu.github.io.git --force
