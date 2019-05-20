@@ -16,5 +16,4 @@ install:
 - mkdocs --version
 - pip install mkdocs-material
 script:
-- git remote add githubio git@github.com:zhoukaisspu/zhoukaisspu.github.io.git
-- git push githubio master --force
+- ssh -i deploy-key git@github.com
