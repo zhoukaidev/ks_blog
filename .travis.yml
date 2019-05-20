@@ -19,7 +19,4 @@ script:
 - cd ..
 - git clone git@github.com:zhoukaisspu/zhoukaisspu.github.io.git
 - cd zhoukaisspu.github.io
-- echo "hello" > readme.md
-- git add .
-- git commit -m "test commit"
-- git push
+- mkdocs gh-deploy --config-file ../ks_blog/mkdocs.yml --remote-branch master
