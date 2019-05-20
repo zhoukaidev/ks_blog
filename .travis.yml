@@ -16,5 +16,10 @@ install:
 - mkdocs --version
 - pip install mkdocs-material
 script:
-- git remote add githubio git@github.com:zhoukaisspu/zhoukaisspu.github.io.git
-- git push githubio master 
+- cd ..
+- git clone git@github.com:zhoukaisspu/zhoukaisspu.github.io.git
+- cd zhoukai.sspu.git
+- echo "hello" > readme.md
+- git add .
+- git commit -m "test commit"
+- git push
