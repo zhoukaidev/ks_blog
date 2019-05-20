@@ -18,7 +18,7 @@ install:
 script:
 - cd ..
 - git clone git@github.com:zhoukaisspu/zhoukaisspu.github.io.git
-- cd zhoukai.sspu.git
+- cd zhoukaisspu.github.io
 - echo "hello" > readme.md
 - git add .
 - git commit -m "test commit"
