@@ -16,7 +16,9 @@ markdown_extensions:
   - admonition
   - codehilite
 nav:
-  - 'Home': index.md
+  - 'Home': 
+    - 'Home': index.md
+    - '网站部署': shell/CI/deployGithubIO.md
   - 'javaScript':
     - '对象设计': JS/ObjectOriented.md
   - 'C++':
