@@ -54,7 +54,7 @@ Travis-CI内置了对于[部署到github page](https://docs.travis-ci.com/user/d
 在进行后续步骤之前，将当前的工作目录切换到已经在`Travis-CI`配置好的仓库目录下面。
 
 
-1. 生成`Deploy key`
+* 生成`Deploy key`
 
 ```bash
 $ $ ssh-keygen.exe -t rsa -b 4096 -C "Your email" -f deploy-key
@@ -62,17 +62,17 @@ $ $ ssh-keygen.exe -t rsa -b 4096 -C "Your email" -f deploy-key
 # 公私密钥创建完成后，在当前目录中可以看到生成的密钥文件
 # 其中deploy-key.pub为公钥文件， deploy-key为私钥文件
 ```
-2. [将公钥添加到相应的仓库中](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys)
+* [将公钥添加到相应的仓库中](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys)
 
 在将公钥添加到相应仓库的时候,要确保`Allow write access`勾选上，因为后续
 要通过`Travis-CI`将网站`push`到该仓库中。
 
-3. [安装`Travis-CI`客户端](https://docs.travis-ci.com/user/encrypting-files/#prerequisites)
+* [安装`Travis-CI`客户端](https://docs.travis-ci.com/user/encrypting-files/#prerequisites)
 
 ```bash
 $ gem install travis
 ```
-4. 登录Travis-CI并加密私钥文件
+* 登录Travis-CI并加密私钥文件
    
 首先切换到已经在`Travis-CI`设置的仓库目录下面。
 
@@ -84,11 +84,11 @@ $ travis encrypt-file deploy-key --add
 xxx(一些log信息)
 ```
 
-5. 配置.travis.yml文件
+* 配置.travis.yml文件
    
 配置文件的详细内容请参考[配置.travis.yml实现github page的自动部署](https://github.com/zhoukaisspu/ks_blog/blob/master/.travis.yml).
 
-6. 提交相应的文件
+* 提交相应的文件
    
 将`.tarvis.yml`及`deploy-key.enc`文件提交到远程仓库中。
 
@@ -96,6 +96,7 @@ xxx(一些log信息)
     在文档提交过程中，切记一定**不要**将`deploy-key`及`deploy-key.pub`
     提交到远程仓库中，将`deploy-key`提交到仓库中会直接泄露你的私钥。
 
+## F.A.Q
 
 
 
