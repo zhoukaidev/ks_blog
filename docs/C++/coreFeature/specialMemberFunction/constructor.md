@@ -2,12 +2,14 @@
 
 参考文档: [cpp_class][referenceManual] 
 
-c++中包含三种构造函数：
+c++中包含三种构造函数:
+
 * 默认构造函数(Default constructor)
 * 拷贝构造函数(Copy constructor)
 * 移动构造函数(Move constructor)
 
 两种赋值运算符:
+
 * 拷贝赋值运算符(Copy assignment operator)
 * 移动赋值运算符(Move assignment operator)
 
@@ -18,9 +20,10 @@ c++中包含三种构造函数：
 * [默认构造函数][defaultConstructor]
 * [拷贝构造函数][copyConstructor]
 * 拷贝赋值运算符
-* 移动构造函数
+* [移动构造函数][moveConstructor]
 * 移动赋值运算符
 
 [referenceManual]:https://en.cppreference.com/w/cpp/language/classes 
-[defaultConstructor]:http://dangercc.com/wp/2018/11/10/default-constructor/
-[copyConstructor]:http://dangercc.com/wp/2018/11/15/copy-constructor/
+[defaultConstructor]:default_constructor.md
+[copyConstructor]:copy_constructor.md
+[moveConstructor]:move_constructor.md
