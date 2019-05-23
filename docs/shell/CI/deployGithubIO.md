@@ -98,8 +98,10 @@ xxx(一些log信息)
 
 ## F.A.Q
 
+!!! question
+    在使用`Travis-CI`中出现如下错误:
+    139785287845536:error:0606506D:digital envelope routines:EVP_DecryptFinal_ex:wrong final block length:evp_enc.c:532:
+    The command "openssl aes-256-cbc -K $encrypted_5a7cb78de077_key -iv $encrypted_5a7cb78de077_iv -in deploy-key.enc -out deploy-key -d" failed and exited with 1 during .
 
-
-   
-   
-
+> 解决办法: 我是在windows系统中生成的`deploy-key.enc`,此时的换行标识符为`\r\n`,在linux系统下换行符为`\n`,
+> 所以可以使用`dos2unix`工具将该文件转换成为linux格式即可。
