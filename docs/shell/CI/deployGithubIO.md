@@ -18,8 +18,8 @@ MkDocs是将使用Markdown编写的工程文档编译成静态站点的一个工
 官方网站。
 
 * 安装相应的工具
-  1. [安装MkDocs](https://www.mkdocs.org/#installation)
-  2. [安装Material for MkDocs(该网站主题)](https://github.com/squidfunk/mkdocs-material)
+    1. [安装MkDocs](https://www.mkdocs.org/#installation)
+    2. [安装Material for MkDocs(该网站主题)](https://github.com/squidfunk/mkdocs-material)
 
 ```bash
 # 验证mkdocs是否安装成功
@@ -29,8 +29,8 @@ mkdocs, version 1.0 from YOUR/INSTALL/PATH
 
 * [生成工程目录](https://www.mkdocs.org/#getting-started)
 * [修改配置文件](https://www.mkdocs.org/user-guide/configuration/) 
-  1. 修改站点名称`site_name`(可选)
-  2. [创建文档布局](https://www.mkdocs.org/user-guide/configuration/#documentation-layout)
+    1. 修改站点名称`site_name`(可选)
+    2. [创建文档布局](https://www.mkdocs.org/user-guide/configuration/#documentation-layout)
 
 * [设置网站主题](https://www.mkdocs.org/user-guide/styling-your-docs/)
 
