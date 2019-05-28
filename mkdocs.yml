@@ -26,3 +26,5 @@ nav:
       - '构造函数': C++/coreFeature/specialMemberFunction/constructor.md
     - 'C++对象模型':
       - '局部静态对象': C++/objectModel/scoped_static.md
+    - 'C++标准库':
+      - 'std::thread': C++/standardLibrary/multiThread/thread.md
