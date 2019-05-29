@@ -5,12 +5,10 @@
 * 通过double check(借助std::atomic)实现单例模式
 * 采用static member实现单例模式
 
-
 ### double check实现单例模式
 
 在使用double check来实现线程安全的单例模式中，我们需要使用`std::atomic`
 来实现必要的同步。
-
 
 ```cpp
 class SingleTon {

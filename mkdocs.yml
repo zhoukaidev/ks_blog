@@ -28,3 +28,4 @@ nav:
       - '局部静态对象': C++/objectModel/scoped_static.md
     - 'C++标准库':
       - 'std::thread': C++/standardLibrary/multiThread/thread.md
+      - 'std::thread::native_handle': C++/standardLibrary/multiThread/thread_nativeHandle.md
