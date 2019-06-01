@@ -30,4 +30,5 @@ nav:
       - 'std::thread': C++/standardLibrary/multiThread/thread.md
       - 'std::thread::native_handle': C++/standardLibrary/multiThread/thread_nativeHandle.md
     - 'C++技术总结':
-      - '单例模式': C++/others/singleTon_atomic_static_member.md
+      - '单例模式': C++/others/singleTon_mutex_call_once.md
+      - '单例模式_2': C++/others/singleTon_atomic_static_member.md
