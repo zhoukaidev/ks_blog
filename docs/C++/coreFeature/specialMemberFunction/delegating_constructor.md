@@ -5,7 +5,6 @@
 委托构造函数就是在一个类的成员初始化列表中调用该类的其他构造函数。
 针对委托构造函数，直接同时示例来展示时比较通俗易懂的。
 
-
 ## 示例
 
 ```cpp
@@ -48,6 +47,5 @@ private:
     int m2;
 }
 ```
-
 
 [delegatingConstructor]:https://en.cppreference.com/w/cpp/language/initializer_list#Delegating_constructor
