@@ -23,6 +23,10 @@ c++中包含三种构造函数:
 * [移动构造函数][moveConstructor]
 * 移动赋值运算符
 
+### 构造函数相关扩展
+
+* [委托构造函数](delegating_constructor.md)
+  
 [referenceManual]:https://en.cppreference.com/w/cpp/language/classes 
 [defaultConstructor]:default_constructor.md
 [copyConstructor]:copy_constructor.md
