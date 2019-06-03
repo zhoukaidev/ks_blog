@@ -40,7 +40,7 @@ public:
     会导致m1,m2并没有被正确的初始化*/
 
     ErrorFoo(int a1){
-        Foo(a1, 0);
+        ErrorFoo(a1, 0);
     }
 private:
     int m1;
