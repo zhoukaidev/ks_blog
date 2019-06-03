@@ -33,3 +33,6 @@ nav:
     - 'C++技术总结':
       - '单例模式': C++/others/singleTon_mutex_call_once.md
       - '单例模式_2': C++/others/singleTon_atomic_static_member.md
+  - 'swift':
+    - '数据类型及变量': swift/basic.md
+    - '函数定义': swift/function.md
