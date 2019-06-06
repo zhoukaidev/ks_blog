@@ -36,3 +36,5 @@ nav:
   - 'swift':
     - '数据类型及变量': swift/basic.md
     - '函数定义': swift/function.md
+    - '类基本': swift/class_basic.md
+    - '类属性': swift/class_property.md
