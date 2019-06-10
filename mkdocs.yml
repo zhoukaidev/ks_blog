@@ -34,7 +34,9 @@ nav:
       - '单例模式': C++/others/singleTon_mutex_call_once.md
       - '单例模式_2': C++/others/singleTon_atomic_static_member.md
   - 'swift':
-    - '1.1:数据类型及变量': swift/basic.md
-    - '1.2:函数定义': swift/function.md
-    - '2.1:类基本': swift/class_basic.md
-    - '2.2:类属性': swift/class_property.md
+    - '1.1: 数据类型及变量': swift/basic.md
+    - '1.2: 函数定义': swift/function.md
+    - '2.1: 类基本': swift/class_basic.md
+    - '2.2: 类属性': swift/class_property.md
+    - '2.3: 类方法': swift/class_method.md
+    - '2.4: 类subscript': swift/class_subscript.md
