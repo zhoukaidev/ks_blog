@@ -40,3 +40,4 @@ nav:
     - '2.2: 类属性': swift/class_property.md
     - '2.3: 类方法': swift/class_method.md
     - '2.4: 类subscript': swift/class_subscript.md
+    - '2.5: 类型转换': swift/type_casting.md
