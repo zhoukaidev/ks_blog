@@ -87,10 +87,11 @@ var myTuple = (24, "Joe", "Student", 34.3) // contains Integer,string and float
    * 声明常量
    * 常量类型声明
 
-   ```swift
-   let constA = 42 // constant interger has a value 42
-   let constB:Float = 3.14159 // type annotations with constB
-   ```
+```swift
+let constA = 42 // constant interger has a value 42
+let constB:Float = 3.14159 // type annotations with constB
+
+```
 
 * `Arrays`类型
    * 创建数组
