@@ -9,6 +9,7 @@
 对于熟悉C++的人而言，这里的subscripts实际上就是"[ ]操作符重载"。
 
 以下内容分为:
+
 * subscript语法
 * 定义read-only的subscript
 * 定义read-write的subscript
@@ -42,6 +43,7 @@ subscript(index: Int) -> Int {
     //此时subscript为read-only
 }
 ```
+
 * read-only的subscript例子
 
 ```swift
@@ -57,6 +59,7 @@ let threeTimesTable = TimesTable(multiplier: 3)
 print("six times three is: \(threeTimesTable[6])")
 //输出: "six times three is 18"
 ```
+
 ## 定义read-write的subscript
 
 当需要定义`read-write`形式的subscript时，就需要使用前面提供的`get-set`形式的subscript.
