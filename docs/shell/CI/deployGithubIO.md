@@ -3,13 +3,13 @@
 本文会从该网站的生成到部署做一个详细的介绍,并将中途遇到的问题做一个总结。
 后续会分为两个部分进行介绍:
 
-* 借助MkDocs生成网站
-* 借助travis-ci来实现网站的自动部署
+* 借助[MkDocs](https://www.mkdocs.org/)生成网站
+* 借助[Travis CI](https://travis-ci.com/)来实现网站的自动部署
   
 因为网站的生成与部署都可以实现自动化,所以我们可以更加专注于文档的内容。
 
 在整个流程中，首先将使用`markdown`编写的文档`push`到远程仓库中，一次新的commit
-会触发`travis-ci`来开始工作，tarvis-ci会首先编译最新的工程文档，生成静态站点,
+会触发`Travis CI`来开始工作，tarvis-ci会首先编译最新的工程文档，生成静态站点,
 紧接着将该站点push到`github.io`上,当然所有的工作都是自动化完成的。
 
 ## 使用MkDocs生成网站
@@ -57,7 +57,7 @@ Travis-CI内置了对于[部署到github page](https://docs.travis-ci.com/user/d
 * 生成`Deploy key`
 
 ```bash
-$ $ ssh-keygen.exe -t rsa -b 4096 -C "Your email" -f deploy-key
+$ ssh-keygen.exe -t rsa -b 4096 -C "Your email" -f deploy-key
 # 在Enter passphrase的时候，不要输入任何密码
 # 公私密钥创建完成后，在当前目录中可以看到生成的密钥文件
 # 其中deploy-key.pub为公钥文件， deploy-key为私钥文件
