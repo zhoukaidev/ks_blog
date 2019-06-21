@@ -96,14 +96,12 @@ $ xcodebuild -exportArchive -archivePath myArchive.xcarchive\
      -exportOptionsPlist myOption.plist
 ```
 
-
 ## 代码签名(code sign)
 
 ### 什么是代码签名
 
 代码签名是指通过数学运算对可执行程序和脚本等文件进行**数字签名**，我们使用该`数字签名`来校验
 该软件的确是软件发布者所发布的软件，在传播过程中没有被中间人进行过修改。
-
 
 ### 代码签名的基本流程
 
@@ -128,12 +126,7 @@ $ xcodebuild -exportArchive -archivePath myArchive.xcarchive\
 +-------------+             +--------------+             +------------+
 ```
 
-
-
 ## 参考文档
 
-* Code Signing Guide:
-https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html
-
-* Understanding Digital Certificates and Code signing
-https://www.oracle.com/technetwork/java/javase/documentation/digitalcerts-codesigning-4312830.html
+* [Code Signing Guide](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html)
+* [Understanding Digital Certificates and Code signing](https://www.oracle.com/technetwork/java/javase/documentation/digitalcerts-codesigning-4312830.html)
