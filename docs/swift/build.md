@@ -144,3 +144,4 @@ $ xcodebuild -exportArchive -archivePath myArchive.xcarchive\
 
 * [Code Signing Guide](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html)
 * [Understanding Digital Certificates and Code signing](https://www.oracle.com/technetwork/java/javase/documentation/digitalcerts-codesigning-4312830.html)
+* [CACS-Cdoe-Signing](https://casecurity.org/wp-content/uploads/2016/12/CASC-Code-Signing.pdf)
