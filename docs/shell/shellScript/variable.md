@@ -96,3 +96,9 @@ echo "The exit status of the last command: $?"
 echo "All argument are double quoted: $*"
 echo "All arguments are individually double quoted: $@"
 ```
+
+
+```sh
+# run variable.sh
+$ ./variable.sh hello world
+```
