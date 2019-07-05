@@ -55,3 +55,18 @@ echo $COUNTRY
 unset COUNTRY
 echo $COUNTRY
 ```
+
+## 变量访问
+
+为了访问脚本中定义变量的值,需要在变量名前使用`$`符号。
+
+```sh
+#!/bin/sh
+
+NAME="kai.zhou"
+# 直接访问变量
+echo $NAME
+
+# 变量的拼接
+echo "hello_${NAME}"
+```
