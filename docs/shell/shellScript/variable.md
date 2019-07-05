@@ -65,8 +65,34 @@ echo $COUNTRY
 
 NAME="kai.zhou"
 # 直接访问变量
+# 输出值为 kai.zhou
 echo $NAME
 
 # 变量的拼接
+# 输出值为 hello_kai.zhou
 echo "hello_${NAME}"
+```
+## `shell`脚本中的特殊变量
+
+| 变量名称   |   变量含义   |
+|-----------|--------------|
+| $0        | 目前脚本名称  | 
+| $n        | n的值为(1...n), `$1`代表第一个参数, $2第二个参数...|
+| $#        | 传入的参数总数量  |
+| $?        | 上次执行的命令的返回值  |
+| $*        | 所有参数一起被双引号包围  |
+| $@        | 每个参数单独被双引号包围  | 
+| ...       | ... |
+
+
+```sh
+#!/bin/sh
+# variable.sh
+echo "The filename of current script: $0"
+echo "The first parameter: $1"
+echo "The second parameter: $2"
+echo "The number of argument supplied to script: $#"
+echo "The exit status of the last command: $?"
+echo "All argument are double quoted: $*"
+echo "All arguments are individually double quoted: $@"
 ```
