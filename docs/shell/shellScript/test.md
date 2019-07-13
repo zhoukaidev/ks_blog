@@ -52,11 +52,55 @@ $ man [
 | -ge        | 大于等于比较, 左值大于等于右值，返回true | [$a -ge $b] | greater than or equal | >= |
 | -le        | 小于等于比较，左值小于等于右值，返回true | [ $a -le $b ] | less than or equal  | <= |
 
+### 数字类型运算符例程
 
+* `'-eq'`,`'-ne'` 操作符
 
+```sh
+#!/bin/bash
+A=10
+B=10
+# 比较A与B的值是否相等
+if [ $A -eq $B]; then
+    echo "A is equal to B"
+else
+    echo "A is not equal to B"
+fi
 
+C=10
+D=20
+# 比较C与D的值是否不相等
+if [ $C -ne $D ]; then
+    echo "C is not equal to D"
+else
+    echo "C is equal to D"
+fi
+```
 
+* `'-gt'`,`'-lt'` 操作符
+  
+```sh
+#!/bin/bash
+A=20
+B=10
+# 比较A与B的值是否相等
+if [ $A -gt $B]; then
+    echo "A is greater than to B"
+else
+    echo "A is not greater than to B"
+fi
 
+C=10
+D=20
+# 比较C与D的值是否不相等
+if [ $C -lt $D ]; then
+    echo "C is less than to D"
+else
+    echo "C is not less than to D"
+fi
+```
+
+* `'-ge'`,`'-le'`类似
 
 ## 参考手册
 
