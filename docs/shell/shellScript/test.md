@@ -148,6 +148,67 @@ else
 fi
 ```
 
+## 字符串比较运算符
+
+针对字符串共有五种比较不同的比较运算符:
+
+| 操作符   |  描述    |   例程  |
+|---------|----------|---------|
+| =      | 两个字符串值是否相同 | [ $A = $B ] |
+| !=    | 两个字符串是否不相同  | [ $A != $B ] |
+| -z    | 字符串长度为0，返回true | [ -z $A ] |
+| -n    | 字符串长度不为0,返回true | [ -n $A ] |
+| str   | str不为空，则返回true   | [ $A ] |
+
+### 字符串比较运算符例程
+
+* '`=`',`'!='` 运算符
+
+```sh
+#!/bin/bash
+
+A="hello"
+B="hello"
+C="world"
+
+if [ $A = $B ]; then
+    echo "A is equal to B"
+    echo "A = B = $A"
+else
+    echo "A is not equal to B"
+    echo "A = $A, B = $B"
+fi
+
+if [ $B != $C ]; then
+    echo "B is not equal to C"
+    echo "B = $B, C = $C"
+else
+    echo "B is equal to C"
+    echo "B = C = $B"
+fi
+```
+
+* `'-z'`,`'-n'` 运算符
+
+```sh
+#!/bin/bash
+
+A='hello'
+B=''
+if [ -n $A ]; then
+    echo "A's lenght is greater than zero"
+else
+    echo "A's length is zero"
+fi
+
+if [ -z $B ]; then  
+    echo "B's length is zero"
+else 
+    echo "B's length is greater than zero"
+fi
+```
+
+
 ## 参考手册
 
 * [shell Basic Operator](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)
