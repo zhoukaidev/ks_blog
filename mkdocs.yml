@@ -46,3 +46,4 @@ nav:
     - 'shell Script':
       - 'shell script简介': shell/shellScript/home.md
       - '变量': shell/shellScript/variable.md
+      - '条件判断': shell/shellScript/test.md
