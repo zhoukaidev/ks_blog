@@ -102,6 +102,52 @@ fi
 
 * `'-ge'`,`'-le'`类似
 
+## 布尔运算符
+
+`'['` 指令支持 **与**，**或**，**非** 运算符。
+
+| 操作符     |  描述    | 例程  | 比较符号 |
+|-----------|----------|-------|---------|
+| !         | 非运算符 | [ ! false ] | !   |
+| -o        | 或运算符 | [ $a -eq $b -o $c -eq $d ] | \|\| |
+| -a        | 与运算符 | [ $a -eq $b -a $c -eq $d ] | &&   |
+
+### 布尔运算符例程
+
+* `'!'` 运算符
+  
+```sh
+#/bin/bash
+A=10
+B=10
+if [ ! $A -eq $B ]; then
+    echo "A is not equal to B"
+else
+    echo "A is equal to B"
+fi
+```
+
+* `'-o'`, `'-a'` 运算符
+
+```sh
+#!/bin/bash
+
+A=10
+B=20
+
+if [ $A -eq 10 -o $B -eq 10]; then
+    echo "A = 10 or B = 10"
+else
+    echo "A !=10 and B != 10"
+fi
+
+if [ $A -eq 10 -a $B -eq 20]; then
+    echo "A = 10 and B = 20"
+else
+    echo "A != 10 or B !=20"
+fi
+```
+
 ## 参考手册
 
 * [shell Basic Operator](https://www.tutorialspoint.com/unix/unix-basic-operators.htm)
