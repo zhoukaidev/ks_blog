@@ -203,11 +203,10 @@ fi
 
 if [ -z $B ]; then  
     echo "B's length is zero"
-else 
+else
     echo "B's length is greater than zero"
 fi
 ```
-
 
 ## 参考手册
 
