@@ -30,7 +30,7 @@ printLog() {
 在函数内部使用 `$1, $2,...$N` 来访问传入的不同的参数,其中`$1`代表第一个参数, `$N`代表第N个参数。
 
 ```sh
-function printParameters(){
+printParameters(){
     echo "First parameter: $1"
     echo "Second parameter: $2"
 }
