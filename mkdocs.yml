@@ -43,6 +43,8 @@ nav:
     - '2.4: 类subscript': swift/class_subscript.md
     - '2.5: 类型转换': swift/type_casting.md
   - 'linux':
+    - 'linux':
+      - 'Linux指令': shell/linux/command.md
     - 'shell Script':
       - 'shell script简介': shell/shellScript/home.md
       - '变量': shell/shellScript/variable.md
