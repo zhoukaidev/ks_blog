@@ -13,3 +13,4 @@
 | 指令  |  简述   |  参考文档  |
 |-------|---------|-----------|
 | `which` | show the full path of shell command | [man which](https://linux.die.net/man/1/which) |
+| `apt-get`| managing software packages | [SourceList](https://wiki.debian.org/SourcesList) |
