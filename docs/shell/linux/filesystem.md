@@ -40,6 +40,7 @@
 $ touch inode.test #建立inode.test文件
 $ ls -i inode.test
 ```
+
 我本机使用`ls -i inode.test`指令输出结果为:
 
 > 5768721 inode.test
