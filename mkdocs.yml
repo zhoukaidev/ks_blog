@@ -45,6 +45,7 @@ nav:
   - 'linux':
     - 'linux':
       - 'Linux指令': shell/linux/command.md
+      - 'Linux工具': shell/linux/tools.md
       - 'ext2文件系统': shell/linux/filesystem.md
     - 'shell Script':
       - 'shell script简介': shell/shellScript/home.md
