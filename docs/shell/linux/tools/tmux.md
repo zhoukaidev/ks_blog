@@ -36,6 +36,7 @@
 |----------|--------|
 | `tmux kill-server`  | kill server,删除所有的`session` |
 |在默认终端中输入`tmux`  | 创建一个新的session |
+| `tmux rename-session -t 0 mysession` |  将session 0重命名为`mysession` |
 
 ### create pane
 
@@ -52,3 +53,7 @@
 1. 按住`Ctrl+b`的同时，快速按`左键`或`右键`调节宽度
 
 > 这里必须是按住`Ctrl+b`的同时按`左键`或`右键`
+
+## 参考文档
+
+* [Easy guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
