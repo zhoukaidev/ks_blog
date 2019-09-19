@@ -37,6 +37,7 @@
 | `tmux kill-server`  | kill server,删除所有的`session` |
 |在默认终端中输入`tmux`  | 创建一个新的session |
 | `tmux rename-session -t 0 mysession` |  将session 0重命名为`mysession` |
+| `tmux new-session -s mysession` | 创建新的`session`,并命名为`mysession` |
 
 ### create pane
 
