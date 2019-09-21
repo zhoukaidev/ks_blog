@@ -5,3 +5,4 @@
 ## 工具
 
 * [tmux-Terminal multiplexer](tools/tmux.md)
+* [ssh](tools/ssh.md)
