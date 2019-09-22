@@ -39,6 +39,7 @@
 | `tmux rename-session -t 0 mysession` |  将session 0重命名为`mysession` |
 | `tmux new-session -s mysession` | 创建新的`session`,并命名为`mysession` |
 | `tmux new -s mysession` | 同 `tmux new-session -s mysession` |
+
 ### create pane
 
 在一个`session`中，我们可以创建多个`pane`来同时进行工作
