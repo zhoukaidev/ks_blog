@@ -14,3 +14,4 @@
 |-------|---------|-----------|
 | `which` | show the full path of shell command | [man which](https://linux.die.net/man/1/which) |
 | `apt-get`| managing software packages | [SourceList](https://wiki.debian.org/SourcesList) |
+| `tar` & `gzip` | archive and compress file or folder | [tar gzip](tools/tarGzip.md) | 
