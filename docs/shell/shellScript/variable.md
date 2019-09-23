@@ -1,16 +1,15 @@
-## 简介
+# 简介
 
 本文中，我们会主要讨论两个部分:
 
 * 普通变量
-    * 定义变量
-    * 删除变量
+  * 定义变量
+  * 删除变量
 * 变量的访问
 * `shell`脚本中的特殊变量
 
 在`shell`脚本中，特殊变量是指内置的一些变量名称，这些变量有特定的意义，除此以外，
 我们定义的其他变量都是普通变量。
-
 
 ## 普通变量
 
@@ -96,7 +95,6 @@ echo "The exit status of the last command: $?"
 echo "All argument are double quoted: $*"
 echo "All arguments are individually double quoted: $@"
 ```
-
 
 ```sh
 # run variable.sh
