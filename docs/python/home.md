@@ -11,3 +11,7 @@
 * ubuntu
   * 安装python3的pip: `sudo apt-get install python3-pip`
   * 安装python的pip: `sudo apt-get install python-pip`
+  
+## 参考手册
+
+* [install pip on ubuntu](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/)
