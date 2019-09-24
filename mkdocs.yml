@@ -33,6 +33,8 @@ nav:
     - 'C++技术总结':
       - '单例模式': C++/others/singleTon_mutex_call_once.md
       - '单例模式_2': C++/others/singleTon_atomic_static_member.md
+  - 'python':
+    - '进入python世界': python/home.md
   - 'swift':
     - 'Home: xcode的继续集成': swift/build.md
     - '1.1: 数据类型及变量': swift/basic.md
