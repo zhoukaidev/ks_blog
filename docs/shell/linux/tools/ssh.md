@@ -7,7 +7,6 @@
   * scp
 * ssh server
 
-
 ## ssh client
 
 在`ssh client`中包括`scp`及`ssh`,其中`scp`用于文件传输，`ssh`用于远程连接。
@@ -25,4 +24,3 @@
 |--------|----------|
 | 远程文件传输到本地 |  `scp user@ip:sourceFile TargetFolder` |
 | 本地文件传输到远程服务器 | `scp SourceFile user@ip:targetFolder` |
-
