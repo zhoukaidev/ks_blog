@@ -3,8 +3,8 @@
 本文用于介绍与`ssh`相关的使用方法。`ssh`主要包括两个部分:
 
 * ssh client
-  * ssh
-  * scp
+    * ssh
+    * scp
 * ssh server
 
 ## ssh client
