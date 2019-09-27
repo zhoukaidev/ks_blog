@@ -23,4 +23,6 @@
 
 | 简介   |   指令   |
 |--------|----------|
-| 文件传输 |  `scp user@ip:sourceFile TargetFolder`
+| 远程文件传输到本地 |  `scp user@ip:sourceFile TargetFolder` |
+| 本地文件传输到远程服务器 | `scp SourceFile user@ip:targetFolder` |
+
