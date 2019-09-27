@@ -7,6 +7,7 @@
 | 指令   | 参考文档   |
 |--------|-----------|
 | `uname`(unix name) | [man page](https://linux.die.net/man/1/uname) |
+| --  | `-r --kernel-release` 获取kernel版本  |
 
 ## 通用指令
 
