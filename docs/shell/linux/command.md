@@ -17,6 +17,7 @@
 | `apt-get`| managing software packages | [source.list][aptSourceList], [Usage][aptCommand] |
 | `tar` & `gzip` | archive and compress file or folder | [tar gzip](tools/tarGzip.md) |
 | `source` | execute command that defined in file   | [source](tools/source.md) |
+| `env` | dispaly or set environment variable | [tutroial](tools/env.md) |
 
 [aptSourceList]: https://wiki.debian.org/SourcesList
 [aptCommand]: tools/apt.md
