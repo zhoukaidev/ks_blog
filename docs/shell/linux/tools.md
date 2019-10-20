@@ -6,3 +6,4 @@
 
 * [tmux-Terminal multiplexer](tools/tmux.md)
 * [ssh](tools/ssh.md)
+* [gcc](tools/gc.md)
