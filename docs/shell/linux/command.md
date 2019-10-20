@@ -15,7 +15,8 @@
 |-------|---------|-----------|
 | `which` | show the full path of shell command | [man which](https://linux.die.net/man/1/which) |
 | `apt-get`| managing software packages | [source.list][aptSourceList], [Usage][aptCommand] |
-| `tar` & `gzip` | archive and compress file or folder | [tar gzip](tools/tarGzip.md) | 
+| `tar` & `gzip` | archive and compress file or folder | [tar gzip](tools/tarGzip.md) |
+| `source` | execute command that defined in file   | [source](tools/source.md) |
 
 [aptSourceList]: https://wiki.debian.org/SourcesList
 [aptCommand]: tools/apt.md
