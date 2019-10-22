@@ -58,4 +58,5 @@ nav:
       - 'shell替换': shell/shellScript/substitution.md
       - '文件测试': shell/shellScript/file_operator.md
       - '函数定义': shell/shellScript/shell_function.md
+      - '重定向': shell/shellScript/redirection.md
       - '调试': shell/shellScript/debug.md
