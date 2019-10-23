@@ -35,6 +35,8 @@ nav:
       - '单例模式_2': C++/others/singleTon_atomic_static_member.md
   - 'python':
     - '进入python世界': python/home.md
+    - '定义函数': python/function_py.md
+    - '函数参数': python/functionParameter_py.md
   - 'swift':
     - 'Home: xcode的继续集成': swift/build.md
     - '1.1: 数据类型及变量': swift/basic.md
