@@ -6,6 +6,7 @@
 * 可变参数
 * 默认参数
 * 命名参数(关键字参数)
+* 位置参数+命名参数(限制参数名称)
 
 ## 位置参数
 
@@ -83,3 +84,29 @@ def person_info(**kwargs):
 person_info(name="spider man", age=23)
 ```
 从以上打印的结果可以看出命名参数在函数内部是以`dictionary`形式存在的。
+
+## 位置参数+命名参数(限制参数名称)
+
+在定义该类型函数的时候，需要使用`*`作为分隔符，例程如下:
+
+```py
+def person(name,age,*,city):
+    print("name:",name)
+    print("age:",age)
+    print("city:",city)
+
+# 函数调用
+# name,age为位置参数
+# city为命名关键字参数
+person("spider", 23, city="world")
+```
+`python`提供的`subprocess.run`函数原型如下:
+
+```py
+subprocess.run(args, *, stdin=None, input=None, stdout=None, stderr=None, capture_output=False, shell=False, cwd=None, timeout=None, check=False, encoding=None, errors=None, text=None, env=None, universal_newlines=None)
+```
+
+在`subprocess.run`函数原型中可以看到:
+
+* `args`为位置参数
+* `*`符号后面的命名关键字参数，其中参数名称已经被指定
