@@ -44,6 +44,7 @@ def my_sum(*args):
         _sum = _sum + num
     return _sum
 ```
+
 通过打印出来的`args`可以看出，可变参数在函数内部是以`tuple`类型的数据存在的，所以我们可以通过`for num in args`的形式来访问内部的各个参数。
 
 ## 默认参数
@@ -83,6 +84,7 @@ def person_info(**kwargs):
 # 调用该函数，输出名称，年龄
 person_info(name="spider man", age=23)
 ```
+
 从以上打印的结果可以看出命名参数在函数内部是以`dictionary`形式存在的。
 
 ## 位置参数+命名参数(限制参数名称)
@@ -100,6 +102,7 @@ def person(name,age,*,city):
 # city为命名关键字参数
 person("spider", 23, city="world")
 ```
+
 `python`提供的`subprocess.run`函数原型如下:
 
 ```py
