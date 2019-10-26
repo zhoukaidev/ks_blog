@@ -52,3 +52,59 @@ p.myAge()
 ```
 
 ## 继承
+
+在继承体系中分为`父类`与`子类`，子类可以继承父类的属性与方法，并在此基础上添加属于自己的独特方法。
+
+比如我们有一个`Person`类，用来标识人类的通用的一些属性及方法，比如年龄，性别等。
+
+`Student`类可以继承`Person`类，并在此的基础上添加`学号`,`班级`等属性及一些独特的方法。
+
+首先我们定义一个`Person`类:
+
+```py
+class Person(object):
+    def goHome(self):
+        print("Person is go home...")
+```
+
+我们来定义一个`Student`类，该类继承自`Person`:
+
+```py
+class Student(Person):
+    pass
+```
+
+我们定义了`Student`类，在该类内部并没有定义任何函数，但依然可以继承`Person`的`goHome`方法。
+
+```py
+#例程
+# 定义Person类，并调用goHome
+p = Person()
+p.goHome()
+# 定义Student类，并调用goHome
+stu = Student()
+stu.goHome()
+```
+
+上面我们介绍了继承最基本的概念，有没有注意到上面我们并没有添加构造函数这些。
+现在我们把`委托构造函数`加进来。
+
+```py
+# 在构造Person类的时候，需要提供`name`,`age`
+class Person(object):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# 相比于`Person`类，`Student`类添加了`studentId`属性
+# 在Student的构造函数里，我们调用了Person的构造函数，来添加Student的name,age属性
+class Student(Person):
+    def __init__(self, name, age, studentId):
+        Person.__init__(self, name, age)
+        self.studentId = studentId
+
+p = Person('spider man', 23)
+stu = Student('spider man2', 23, '201203')
+print("Person: ", p.name, p.age)
+print("Student: ", stu.name, stu.age, stu.studentId)
+```
