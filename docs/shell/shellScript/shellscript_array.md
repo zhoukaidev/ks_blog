@@ -10,6 +10,22 @@
 ARRAY=(variable1 variable2 variable2)
 ```
 
+## 数组操作
+
+```sh
+#!/bin/sh
+ARRAY=(varialbe1 variable2 variable3)
+# 数组中的所有元素
+echo ${ARRAY[*]}
+echo ${ARRAY[@]}
+#数组中的所有下标
+echo ${!ARRAY[*]}
+# 数组的长度
+echo ${#ARRAY[*]}
+# ARRAY[0]的长度
+echo ${#ARRAY[0]}
+```
+
 ## 数组长度
 
 ```sh
