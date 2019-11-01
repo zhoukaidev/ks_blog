@@ -16,3 +16,7 @@
 
 * [install pip on ubuntu](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/)
 * [python3 standard Library](https://pymotw.com/3/index.html)
+
+## 学习资源
+
+* [PyMOTW3: Python3 standard library by example](https://pymotw.com/3/index.html)
