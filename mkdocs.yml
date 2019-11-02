@@ -40,6 +40,7 @@ nav:
     - '类之封装/继承': python/class_py.md
     - '类之多态/重载': python/class2_py.md
     - '定制类': python/customizationClass_py.md
+    - '类属性/实例属性': python/property_py.md
   - 'swift':
     - 'Home: xcode的继续集成': swift/build.md
     - '1.1: 数据类型及变量': swift/basic.md
