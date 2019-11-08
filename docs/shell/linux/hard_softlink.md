@@ -5,7 +5,7 @@
 * 硬链接(hard link)
 * 符号链接(soft link)
 
-如果对于ext2文件系统结构不熟悉，可以参考[ext2 文件系统结构](filesystem.d).
+如果对于ext2文件系统结构不熟悉，可以参考[ext2 文件系统结构](filesystem.md).
 
 ## 硬链接
 
