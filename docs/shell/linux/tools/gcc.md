@@ -18,3 +18,8 @@ gcc -l(libName) -L(libPath)
 * -l: 链接某个函数库,如`-lm`是指`libm.so`或`-libm.a`库，其中`lib`及`.so/.a`可省略
 * -L: 寻找函数库的路径, 如`-L/path`是指除了默认链接库路径也可以到`/path`路径下寻找该函数库
 
+## 源码到汇编
+
+```sh
+gcc -S test.c
+```
