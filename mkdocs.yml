@@ -19,6 +19,7 @@ nav:
   - 'Home': 
     - 'Home': index.md
     - '网站部署': shell/CI/deployGithubIO.md
+    - '学习资源': trainingResource.md
   - 'javaScript':
     - '对象设计': JS/ObjectOriented.md
   - 'C++':
