@@ -12,3 +12,8 @@ Record training resource linke to save my bad memroy.
 ## CPlusPlus
 
 * TODO
+
+
+---
+
+* [oreilly online resource](https://learning.oreilly.com/)
