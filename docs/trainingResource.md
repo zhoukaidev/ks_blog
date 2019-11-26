@@ -20,7 +20,7 @@ Record training resource linke to save my bad memroy.
 ## Linker
 
 * [linkers](http://lurklurk.org/linkers/linkers.html#sharedlibs)
-
+* [Linux ELF loader](https://lwn.net/Articles/631631/)
 ---
 
 ## Others
