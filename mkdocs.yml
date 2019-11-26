@@ -43,6 +43,8 @@ nav:
     - '定制类': python/customizationClass_py.md
     - '类属性/实例属性': python/property_py.md
     - '可调用对象': python/callable_py.md
+    - '代码片段':
+      - '获取版本号': python/codeSnippet/py_ver.md
   - 'swift':
     - 'Home: xcode的继续集成': swift/build.md
     - '1.1: 数据类型及变量': swift/basic.md
