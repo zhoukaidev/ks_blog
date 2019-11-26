@@ -13,7 +13,12 @@ Record training resource linke to save my bad memroy.
 
 * [Boost Training Resources](https://theboostcpplibraries.com/)
 
+## Linux
+
+* [linux inside](https://0xax.gitbooks.io/linux-insides/Booting/linux-bootstrap-1.html)
 
 ---
+
+## Others
 
 * [oreilly online resource](https://learning.oreilly.com/)
