@@ -17,3 +17,25 @@
 | `cmd 1>> file.log` | 将标准输出追加到file.log中 |
 | `cmd 2> error.log` | 清除error.log,并将错误输出重定向到error.log中 |
 | `cmd 2>> error.log` | 将错误输出追加到error.log中 | 
+
+### 文件描述符
+
+文件描述符是使用一个正数来表示一个打开的文件，前面所说的`STDOUT`及`STDERR`也有各自的
+文件描述符。
+
+| 文件名   | 描述符  |
+|----------|--------|
+| STDOUT    | 1  |
+| STDERR    | 2   |
+
+当需要同时重定向`STDOUT`和`STDERR`时，可以使用如下语法:
+
+```sh
+ls dir1/ dir2/ > contents.txt 2>&1
+```
+
+## 总结
+
+* `>` 为`STDOUT`重定向符， `>>`将`STDOUT`输出追加到一个文件中
+* `2>`为`STDERR`重定向符, `2>>`将`STDERR`输出追加到一个文件中
+* `>&`为将一个输出重定向到另外一个输出, `2>&1`代表将`STDERR`输出重定向到`STDOUT`, `1>&2`与之相反。
