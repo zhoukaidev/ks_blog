@@ -17,6 +17,10 @@ Record training resource linke to save my bad memroy.
 
 * [linux inside](https://0xax.gitbooks.io/linux-insides/Booting/linux-bootstrap-1.html)
 
+## Linker
+
+* [linkers](http://lurklurk.org/linkers/linkers.html#sharedlibs)
+
 ---
 
 ## Others
