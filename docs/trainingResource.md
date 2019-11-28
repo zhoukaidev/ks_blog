@@ -26,3 +26,7 @@ Record training resource linke to save my bad memroy.
 ## Others
 
 * [oreilly online resource](https://learning.oreilly.com/)
+
+### Books
+
+1. **Practial Binary Analysis**
