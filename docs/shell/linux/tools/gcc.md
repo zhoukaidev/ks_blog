@@ -23,3 +23,9 @@ gcc -l(libName) -L(libPath)
 ```sh
 gcc -S test.c
 ```
+
+## 预处理阶段
+
+```sh
+gcc -E -P test.c
+```
