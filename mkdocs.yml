@@ -61,6 +61,7 @@ nav:
       - 'ext2文件系统': shell/linux/filesystem.md
       - '硬/符号链接': shell/linux/hard_softlink.md
       - 'FHS': shell/linux/fhs.md
+      - 'C编译流程': shell/linux/c_compilation.md
     - 'shell Script':
       - 'shell script简介': shell/shellScript/home.md
       - '变量': shell/shellScript/variable.md
