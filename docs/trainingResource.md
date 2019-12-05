@@ -13,6 +13,10 @@ Record training resource linke to save my bad memroy.
 
 * [Boost Training Resources](https://theboostcpplibraries.com/)
 
+### atomic
+
+ [Happens-before](https://preshing.com/20130702/the-happens-before-relation/)
+
 ## Linux
 
 * [linux inside](https://0xax.gitbooks.io/linux-insides/Booting/linux-bootstrap-1.html)
