@@ -15,7 +15,7 @@ Record training resource linke to save my bad memroy.
 
 ### atomic
 
- [Happens-before](https://preshing.com/20130702/the-happens-before-relation/)
+* [Happens-before](https://preshing.com/20130702/the-happens-before-relation/)
 
 ## Linux
 
