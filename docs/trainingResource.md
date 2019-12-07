@@ -12,10 +12,8 @@ Record training resource linke to save my bad memroy.
 ## CPlusPlus
 
 * [Boost Training Resources](https://theboostcpplibraries.com/)
-
-### atomic
-
-* [Happens-before](https://preshing.com/20130702/the-happens-before-relation/)
+* [Moderns C++](https://www.modernescpp.com/index.php)
+* [Preshing on Programming](https://preshing.com/archives/)
 
 ## Linux
 
