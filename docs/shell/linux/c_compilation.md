@@ -39,5 +39,23 @@ int main(int argc, char *argv[])
 * 显示预处理后的代码
 
 ```sh
-gcc -E -P xx.c
+$ gcc -E -P compilation.c
+
+typedef long unsigned int size_t;
+typedef unsigned char __u_char;
+typedef unsigned short int __u_short;
+typedef unsigned int __u_int;
+typedef unsigned long int __u_long;
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef signed short int __int16_t;
+typedef unsigned short int __uint16_t;
+...(中间内容省略)
+int main(int argc, char *argv[])
+{
+ printf("%s", "Hello, World\n");
+ return 0;
+}
+
 ```
+从以上的结果可以看出，我们的`头文件`以及`#define定义`都已经在预处理阶段被真正的源码替换了。
