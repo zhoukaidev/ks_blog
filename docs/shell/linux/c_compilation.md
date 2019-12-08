@@ -13,9 +13,22 @@
 
 ![compilation phases](assert/compilation-phase.jpg)
 
-<script src="https://gist.github.com/zhoukaisspu/676739e37244d800afa02072624d1958.js"></script>
-
 ---
+
+我们先来创建一个源文件`compilation.c`, 后续所有的操作都基于该文件来进行：
+
+```c
+#include <stdio.h>
+
+#define FORMAT_STRING "%s"
+#define MESSAGE "Hello, World\n"
+
+int main(int argc, char *argv[])
+{
+   printf(FORMAT_STRING, MESSAGE);
+   return 0;
+}
+```
 
 ## 预处理
 
