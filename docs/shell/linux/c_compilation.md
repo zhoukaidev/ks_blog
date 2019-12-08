@@ -3,6 +3,7 @@
 本文主要用于介绍`C/C++`的编译流程。
 
 `C`语言的编译流程主要分为四个部分:
+
 * preprocessing(预处理)
 * compilation(编译)
 * assembly(汇编)
