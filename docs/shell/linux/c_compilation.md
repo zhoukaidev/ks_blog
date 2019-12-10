@@ -74,3 +74,16 @@ $ gcc -masm=intel -S compilation.c
 运行上述指令后，正常情况下会生成`compilation.s`文件，也就是我们生成的汇编代码。
 其中`-masm=intel`是告诉`gcc`编译器生成`intel 语法`的汇编指令，而不是gcc默认的`AT&T`语法。
 
+## 汇编(assembly)
+
+汇编阶段是用于将汇编语言转换成相应的目标文件。
+
+```sh
+$ gcc -c compilation.c
+```
+
+运行上述指令后，会生成文件名`compilation.o`的目标文件，该文件并不是可执行文件，为了生成可执行文件，我们需要在
+调用链接程序，来将所有的目标文件链接在一起，最后生成可执行文件。
+
+
+
