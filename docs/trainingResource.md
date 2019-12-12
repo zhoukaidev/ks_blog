@@ -42,4 +42,4 @@ Record training resource linke to save my bad memroy.
 
 ### Books
 
-1. **Practial Binary Analysis**
+1. **[Practial Binary Analysis](https://practicalbinaryanalysis.com/)**
