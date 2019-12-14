@@ -21,3 +21,9 @@
 
 [aptSourceList]: https://wiki.debian.org/SourcesList
 [aptCommand]: tools/apt.md
+
+## 编码
+
+| 指令  | 简述    |  参考文档  |
+| `base32` | base32 encode/decode data | `man base32` |
+| `base64` | base64 encode/decode data  | `man base64`  |
