@@ -28,3 +28,10 @@
 |-------|---------|-----------|
 | `base32` | base32 encode/decode data | `man base32` |
 | `base64` | base64 encode/decode data  | `man base64`  |
+
+## 文件操作
+
+| 指令  | 简述  | 参考文档  |
+|------|--------|----------|
+| `dd` | stands for "data duplicator" | `man dd` |
+
