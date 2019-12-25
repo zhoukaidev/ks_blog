@@ -1,0 +1,21 @@
+@startuml ELF
+class ELF_structure {
+    ELF file Header:
+    64bytes
+    --
+
+    Program header:
+    x bytes
+
+    --
+    
+    Section content
+
+    --
+
+    Section Header:
+
+
+
+}
+@enduml
