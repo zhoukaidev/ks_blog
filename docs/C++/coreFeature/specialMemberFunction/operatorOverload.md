@@ -87,13 +87,13 @@ T& operator*() const noexcept;
 T* operator->() const noexcept;
 ```
 
-`ptr->push_back(1)`的背后是调用了重载的`->`操作符:
+* `ptr->push_back(1)`的背后是调用了重载的`->`操作符:
 
 ```c++
 (ptr.operator->())->push_back(1);
 ```
 
-`(*ptr).push_back(2)`是调用了重载的`*`操作符:
+* `(*ptr).push_back(2)`是调用了重载的`*`操作符:
 
 ```c++
 (ptr.operatro*()).push_back(2);
