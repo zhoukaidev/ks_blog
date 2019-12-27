@@ -26,6 +26,8 @@ nav:
     - '核心特性':
       - '构造函数': C++/coreFeature/specialMemberFunction/constructor.md
       - '委托构造': C++/coreFeature/specialMemberFunction/delegating_constructor.md
+      - '操作符重载':
+        - '操作符重载_part1': C++/coreFeature/specialMemberFunction/operatorOverload.md
     - 'C++对象模型':
       - '局部静态对象': C++/objectModel/scoped_static.md
     - 'C++标准库':
