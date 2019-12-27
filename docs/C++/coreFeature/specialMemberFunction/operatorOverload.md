@@ -72,9 +72,12 @@ int main()
 }
 ```
 
-1. ptr为`shared_ptr<vecotr<int>>`类型对象，ptr内部管理的是`vector<int>`类型的指针, 注意这里的`ptr`是个对象，内部包含一个指针
+1. ptr为`shared_ptr<vecotr<int>>`类型对象，ptr内部管理的是`vector<int>`类型的指针
 2. `ptr->push_back(1)`的使用是不是感觉`ptr`是一个`vector<int>`类型的指针，并不是所谓的`shared_ptr`对象
 3. `(*ptr).push_back(2)`的使用是不是也感觉`ptr`就是`vector<int>`类型的指针
+
+!!! note
+        以上的`ptr`是个`shared_ptr`类型对象，内部包含一个指针
 
 对`ptr`如此直接自然的使用，背后其实也是`操作符重载`在捣鬼。
 
