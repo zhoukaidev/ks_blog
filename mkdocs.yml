@@ -20,8 +20,6 @@ nav:
     - 'Home': index.md
     - '网站部署': shell/CI/deployGithubIO.md
     - '学习资源': trainingResource.md
-  - 'javaScript':
-    - '对象设计': JS/ObjectOriented.md
   - 'C++':
     - '核心特性':
       - '构造函数': C++/coreFeature/specialMemberFunction/constructor.md
@@ -37,6 +35,8 @@ nav:
     - 'C++技术总结':
       - '单例模式': C++/others/singleTon_mutex_call_once.md
       - '单例模式_2': C++/others/singleTon_atomic_static_member.md
+  - 'javaScript':
+    - '对象设计': JS/ObjectOriented.md
   - 'python':
     - '进入python世界': python/home.md
     - '定义函数': python/function_py.md
