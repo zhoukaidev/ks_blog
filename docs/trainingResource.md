@@ -46,6 +46,12 @@ Record training resource linke to save my bad memroy.
 
 ---
 
+## Debug
+
+* [advdbg](http://advdbg.org/default.aspx)
+
+---
+
 ### Books
 
 * **[Practial Binary Analysis](https://practicalbinaryanalysis.com/)**
