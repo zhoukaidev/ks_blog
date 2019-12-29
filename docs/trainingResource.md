@@ -40,6 +40,12 @@ Record training resource linke to save my bad memroy.
 
 ---
 
+## OS
+
+* [ManyButFinite](https://manybutfinite.com/)
+
+---
+
 ### Books
 
 * **[Practial Binary Analysis](https://practicalbinaryanalysis.com/)**
