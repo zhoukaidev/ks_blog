@@ -49,6 +49,7 @@ Record training resource linke to save my bad memroy.
 ## Debug
 
 * [advdbg](http://advdbg.org/default.aspx)
+* [windows sysinternal](https://docs.microsoft.com/en-us/sysinternals/)
 
 ---
 
