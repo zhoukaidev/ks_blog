@@ -1,0 +1,65 @@
+@startuml
+class shstrtab{
+    The secionts header string table 
+    contains the name of every section headers
+}
+
+class strtab {
+    The string table section contains the strings that 
+    used in disasseble
+}
+
+class symtab {
+    typedef struct {
+	Elf32_Word	st_name;
+	Elf32_Addr	st_value;
+	Elf32_Word	st_size;
+	unsigned char	st_info;
+	unsigned char	st_other;
+	Elf32_Half	st_shndx;
+} Elf32_Sym;
+
+typedef struct {
+	Elf64_Word	st_name;
+	unsigned char	st_info;
+	unsigned char	st_other;
+	Elf64_Half	st_shndx;
+	Elf64_Addr	st_value;
+	Elf64_Xword	st_size;
+} Elf64_Sym;
+}
+
+class comment {
+    A series of NULL-terminated strings containing 
+    compiler information
+}
+
+strtab <|-- symtab
+shstrtab <|.. symtab
+shstrtab <|.. strtab
+
+package elf64_rela {
+    class r_offset{
+        uint64_t
+    }
+    class r_info{
+        uint64_t
+    }
+    class r_addend {
+        int64_t
+    }
+    r_offset <|.. elf64_rela
+    r_info <|.. elf64_rela
+    r_addend <|.. elf64_rela
+}
+class ELF_OBJ{
+}
+
+shstrtab <|-- ELF_OBJ
+strtab <|-- ELF_OBJ
+symtab <|-- ELF_OBJ
+comment <|-- ELF_OBJ
+rela_text <|-- ELF_OBJ
+text <|-- ELF_OBJ
+elf64_rela <|.. rela_text : data structure
+@enduml

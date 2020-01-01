@@ -1,0 +1,37 @@
+@startuml x86
+
+class GDT <<Global Descriptor table>>{
+Base address
+---
+Segment limit
+---
+...
+}
+note top of GDT
+GDT in x86 architecture
+It store the base address of global descriptor table
+and store the segment limints
+end note
+
+class GDTR <<Global Descriptor Table Register>> {
+32(64)-bit linear Base Address
+---
+16-Bit Table Limit
+
+}
+note top of GDTR
+It hodls the base addresses of GDT and
+the 16-bit table limit
+end note
+
+class IDTR <<Interrupt Descriptor table Register>> {
+    32(64)-bit linear Base Address
+    ---
+    16-Bit Table Limit
+}
+
+GDT <|-- GDTR : locate
+GDT2 <|-- GDTR : locate
+GDT3 <|-- GDTR : locate
+
+@enduml

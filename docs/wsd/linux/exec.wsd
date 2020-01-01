@@ -1,0 +1,41 @@
+@startuml execFamily
+
+package "exec_" {
+    [exec]
+}
+package "execl_" {
+    [execl] ..> execle 
+    [execl] ..> execlp
+}
+package execv_ {
+    [execv] ..> execve
+    [execv] ..> execvp
+}
+
+package "fork_" {
+    [fork]
+}
+
+[exec] --> [execl]
+[exec] --> [execv]
+[fork] --> [exec]
+note bottom of execvp
+int execvp(const char *file, char *const argv[]);
+end note
+note top of execve
+int execve(const char *path, char *const argv[], char *const envp[]);
+end note
+note bottom of execlp
+int execlp(const char *file, const char *arg0, ... /*, (char *)0 */);
+end note
+note left of execle
+int execle(const char *path,
+    const char *arg0, ... /*, (char *)0, char *const envp[]*/);
+end note
+note top of execl
+int execl(const char *path, const char *arg0, ... /*, (char *)0 */);
+end note
+note top of execv
+int execv(const char *path, char *const argv[]);
+end note
+@enduml
