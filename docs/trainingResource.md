@@ -5,6 +5,7 @@ Record training resource linke to save my bad memroy.
 ## Python
 
 *  [PyMOTW-3](https://pymotw.com/3/index.html)
+*  [PyMOTW-2](https://pymotw.com/2/)
 
 ---
 
