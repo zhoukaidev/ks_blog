@@ -16,6 +16,7 @@
 | 简介     |   指令    |
 |----------|----------|
 |连接remote meachine  | `ssh username@ip` / `ssh -l username ip`|
+| `-p`  | 指定远程主机的端口  | 
 |退出连接   | `exit`  |
 
 ### scp
