@@ -57,6 +57,7 @@ Record training resource linke to save my bad memroy.
 ### Books
 
 * **[Practial Binary Analysis](https://practicalbinaryanalysis.com/)**
+* **Professional Asssembly Languages-Richard Blum**
 
 ---
 
