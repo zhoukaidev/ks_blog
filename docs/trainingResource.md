@@ -56,8 +56,15 @@ Record training resource linke to save my bad memroy.
 
 ### Books
 
-* **[Practial Binary Analysis](https://practicalbinaryanalysis.com/)**
+#### 汇编
+
+* **x86汇编语言-从实模式到保护模式**
 * **Professional Asssembly Languages-Richard Blum**
+
+#### EXE分析
+
+* **[Practial Binary Analysis](https://practicalbinaryanalysis.com/)**
+
 
 ---
 
