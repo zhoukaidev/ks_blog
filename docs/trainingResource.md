@@ -51,6 +51,8 @@ Record training resource linke to save my bad memroy.
 
 * [advdbg](http://advdbg.org/default.aspx)
 * [windows sysinternal](https://docs.microsoft.com/en-us/sysinternals/)
+* [WinGDB](http://www.wingdb.com/)
+* [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools)
 
 ---
 
