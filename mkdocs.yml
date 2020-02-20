@@ -71,6 +71,7 @@ nav:
       - '变量': shell/shellScript/variable.md
       - '条件判断': shell/shellScript/test.md
       - 'shell替换': shell/shellScript/substitution.md
+      - '字符串操作': shell/shellScript/stringManipulation.md
       - '文件测试': shell/shellScript/file_operator.md
       - '函数定义': shell/shellScript/shell_function.md
       - '数组': shell/shellScript/shellscript_array.md
