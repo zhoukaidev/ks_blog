@@ -28,6 +28,7 @@ nav:
         - '操作符重载_part.I': C++/coreFeature/specialMemberFunction/operatorOverload.md
         - '操作符重载_part.II': C++/coreFeature/specialMemberFunction/operatorOverload2.
         - '操作符重载_part.III': C++/coreFeature/specialMemberFunction/operatorOverload3.md
+      - '右值引用': C++/coreFeature/specialMemberFunction/rvalueReference.md
     - 'C++对象模型':
       - '局部静态对象': C++/objectModel/scoped_static.md
     - 'C++标准库':
