@@ -29,3 +29,12 @@ gcc -S test.c
 ```sh
 gcc -E -P test.c
 ```
+
+## 生成调试信息
+
+```sh
+gcc -g sourceFile
+```
+
+> -g: generate source level debug information
+
