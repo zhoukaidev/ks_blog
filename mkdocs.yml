@@ -4,7 +4,7 @@ site_name: Knowledge Sharing
 # Set the name of author. This will add a meta data tag to the generated HTML header
 site_author: Kai.Zhou
 repo_url: https://github.com/zhoukaisspu/ks_blog
-copyright: 'Copyright &copy; 2019 - 2019 Kai.Zhou'
+copyright: 'Copyright &copy; 2019 - 2020 Kai.Zhou'
 theme:
   language: 'zh'
   name: 'material'
