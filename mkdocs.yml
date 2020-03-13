@@ -78,3 +78,6 @@ nav:
       - '数组': shell/shellScript/shellscript_array.md
       - '重定向': shell/shellScript/redirection.md
       - '调试': shell/shellScript/debug.md
+   - '逆向工程':
+     - '基础篇':
+   
