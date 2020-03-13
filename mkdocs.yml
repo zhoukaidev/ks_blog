@@ -80,4 +80,5 @@ nav:
       - '调试': shell/shellScript/debug.md
    - '逆向工程':
      - '基础篇':
+      - '汇编语言': reverseEngine/assembly.md
    
