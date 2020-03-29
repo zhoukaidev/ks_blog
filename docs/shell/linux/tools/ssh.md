@@ -5,6 +5,7 @@
 * ssh client
     * ssh
     * scp
+    * sftp
 * ssh server
 
 ## ssh client
@@ -25,3 +26,6 @@
 |--------|----------|
 | 远程文件传输到本地 |  `scp user@ip:sourceFile TargetFolder` |
 | 本地文件传输到远程服务器 | `scp SourceFile user@ip:targetFolder` |
+
+### sftp
+
