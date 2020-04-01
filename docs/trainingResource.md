@@ -81,3 +81,7 @@ Record training resource linke to save my bad memroy.
 * [PlantUML](https://plantuml.com/)
 
 ---
+
+### Windows
+
+* [windows memory management](https://docs.microsoft.com/en-us/windows/win32/memory/memory-management)
