@@ -1,6 +1,6 @@
 # Brief
 
-Record training resource linke to save my bad memroy.
+Record the link of training resource to save my bad memroy.
 
 ## Python
 
