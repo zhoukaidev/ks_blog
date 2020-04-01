@@ -78,6 +78,7 @@ nav:
       - '数组': shell/shellScript/shellscript_array.md
       - '重定向': shell/shellScript/redirection.md
       - '调试': shell/shellScript/debug.md
+      - '常用代码片段': shell/shellScript/shCodeSnippet.md
   - '逆向工程':
     - '基础篇':
       - '汇编语言': reverseEngine/assembly.md
