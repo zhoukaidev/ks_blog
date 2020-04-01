@@ -29,3 +29,16 @@
 
 ### sftp
 
+| 简介  |  指令   |
+|-------|---------|
+| 通过sftp连接到remote machine  | `sftp userName@HostAddress` |
+| 查看remote machine上的文件列表 | `ls`  |
+| 查看local machine上的文件列表  | `lls`  |
+| 查看remote machine上的当前路径 |  `pwd`  |
+| 查看local machine上的当前路径 | `lpwd`  |
+| 切换remote machine上路径  |  `cd xxx`  |
+| 切换local machine上的路径 | `lcd xxx`  |
+
+#### sftp参考文档
+
+* [How to use sftp to securely transfer files with a remote server](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server)
