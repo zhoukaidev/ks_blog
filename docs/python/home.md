@@ -20,3 +20,7 @@
 ## 学习资源
 
 * [PyMOTW3: Python3 standard library by example](https://pymotw.com/3/index.html)
+
+### coroutines
+
+* [The basic of genertors](https://realpython.com/introduction-to-python-generators/)
