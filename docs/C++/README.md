@@ -29,7 +29,7 @@
 [constructor]:./coreFeature/specialMemberFunction/constructor.md
 [threadNativeHandle]:./standardLibrary/multiThread/thread_nativeHandle.md
 [mutexSharedMutex]:./standardLibrary/multiThread/mutex_shared_mutex.md
-[delegatingConstructor]:./others/delegating_constructor.md
+[delegatingConstructor]:./coreFeature/specialMemberFunction/delegating_constructor.md
 [singleton_pattern_call_once]:./others/singleTon_mutex_call_once.md
 [singleton_atomic_static_member]:./others/singleTon_atomic_static_member.md
 
