@@ -8,10 +8,10 @@ copyright: 'Copyright &copy; 2019 - 2020 Kai.Zhou'
 theme:
   language: 'zh'
   name: 'material'
-  feature:
-    tabs: true
+  features:
+    - tabs
   logo:
-    icon: 'cloud'
+    icon: 'material/cloud'
 markdown_extensions:
   - admonition
   - codehilite
