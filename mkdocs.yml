@@ -10,8 +10,8 @@ theme:
   name: 'material'
   features:
     - tabs
-  logo:
-    icon: 'material/cloud'
+  icon:
+    logo: 'material/cloud'
 markdown_extensions:
   - admonition
   - codehilite
