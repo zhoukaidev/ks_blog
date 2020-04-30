@@ -21,6 +21,7 @@ nav:
     - '网站部署': shell/CI/deployGithubIO.md
     - '学习资源': trainingResource.md
   - 'C++':
+    - 'C++学习资源': C++/cppTraining.md
     - '核心特性':
       - '构造函数': C++/coreFeature/specialMemberFunction/constructor.md
       - '委托构造': C++/coreFeature/specialMemberFunction/delegating_constructor.md
