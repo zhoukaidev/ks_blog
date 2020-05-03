@@ -83,5 +83,6 @@ nav:
       - '常用代码片段': shell/shellScript/shCodeSnippet.md
   - '逆向工程':
     - '基础篇':
+      - '逆向工程工具': reverseEngine/basicDevtool.md 
       - '汇编语言': reverseEngine/assembly.md
    
