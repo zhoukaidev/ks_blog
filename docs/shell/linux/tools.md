@@ -4,7 +4,19 @@
 
 ## 工具
 
-* [tmux-Terminal multiplexer](tools/tmux.md)
-* [ssh](tools/ssh.md)
-* [gcc](tools/gcc.md)
-* [curl](tools/curl.md)
+### 远程连接
+
+  * [ssh](tools/ssh.md)
+  
+### 文件下载
+
+  * [curl](tools/curl.md)
+  
+### 日常提升效率
+
+  * [tmux-Terminal multiplexer](tools/tmux.md)
+
+### 软件编译
+
+  * [gcc](tools/gcc.md)
+
