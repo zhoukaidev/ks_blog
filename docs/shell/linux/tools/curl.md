@@ -9,3 +9,4 @@
 | `-o [fileName]` | `--output`  |下载指定的文件，并写入到fileName中 | `curl -o output.html http://example.com/` |
 | `-O`(uppercase letter o) | -- |下载指定文件, 本地文件名称和远端文件名相同  | `crul -O http://www.netspace.com/index.html` |
 | `-v`       | `--verbose` | 使curl打印出详细的信息，可用于调试等功能  | `curl -v http://www.example.com/` |
+| `-i`   | `--include`   | 在output中包含http response header   |  `curl -i https://www.baidu.com`  |
