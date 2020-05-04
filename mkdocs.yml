@@ -52,6 +52,7 @@ nav:
     - '进程调用': python/subprocess.md
     - '代码片段':
       - '获取版本号': python/codeSnippet/py_ver.md
+      - '命令行参数解析': python/codeSnippet/argparse.md
   - 'swift':
     - 'Home: xcode的继续集成': swift/build.md
     - '1.1: 数据类型及变量': swift/basic.md
