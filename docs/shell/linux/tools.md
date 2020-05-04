@@ -11,6 +11,7 @@
 ### 文件下载
 
   * [curl](tools/curl.md)
+  * [wget](tools/wget.md)
   
 ### 日常提升效率
 
