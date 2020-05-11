@@ -86,4 +86,5 @@ nav:
     - '基础篇':
       - '逆向工程工具': reverseEngine/basicDevtool.md 
       - '汇编语言': reverseEngine/assembly.md
-   
+  - 'http':
+    - '安全认证方式': http/httpAuthenticate.md
