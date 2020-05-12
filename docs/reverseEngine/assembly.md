@@ -30,3 +30,7 @@
 | 指令   |  简介    | Intel语法 | AT&T语法  |  示例代码含义 |
 |-------|----------|-----------|-----------|--------------|
 | MOV   |   --     | ---       |   --------|--------------|
+
+## 参考文档
+
+* [Assembly Tutorial from tutorialpoint](https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm)
