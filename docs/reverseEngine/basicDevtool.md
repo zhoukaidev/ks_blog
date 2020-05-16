@@ -4,6 +4,10 @@
 
 ## 基本工具
 
+### 虚拟机
+
+* [VMWare](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
+* [Creating a virtual machine using existing VMDK virtual disks](https://kb.vmware.com/s/article/2010196)
 * [Dependency walker](https://www.dependencywalker.com/)
     * 用于查看`exe, dll, sys...`等模块的导出函数...
     
