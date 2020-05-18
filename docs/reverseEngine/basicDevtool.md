@@ -16,3 +16,8 @@
 * [windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/)
     * Windbg可以用于调试kernel-mode, user-mode的代码，也可以用于分析crash dump,程序执行的时候观察CPU寄存器的值
     * [windbg beginner](http://www.windbg.xyz/windbg/article/1-How-to-install-WinDbg)
+
+
+## 参考文档
+
+* [Command-line syntax key on windows](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/command-line-syntax-key)
