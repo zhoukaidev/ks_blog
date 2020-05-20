@@ -71,3 +71,4 @@
 ## 参考文档
 
 * [Easy guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+* [How do i scroll in tmux](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
