@@ -63,7 +63,7 @@
 
 | 指令     |  介绍      |
 |---------|------------|
-| `"Ctrl"+b` -->[  | Enter copy mode to copy text or view the history |
+| `"Ctrl"+b` ->'\['| Enter copy mode to copy text or view the history |
 | `q`    |  进入`copy mode`后使用`q`来退出`copy mode`   |
 
 进入`copy mode`之后就可以使用`鼠标滚轮`或者`上下`按键来查看console的历史输出了。
