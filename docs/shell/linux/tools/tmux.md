@@ -68,6 +68,15 @@
 
 进入`copy mode`之后就可以使用`鼠标滚轮`或者`上下`按键来查看console的历史输出了。
 
+## FAQ
+
+> 在进入`tmux`后,无法显示正常`bash`设置的语法高亮?
+
+* 将以下代码添加到`~/.tmux.conf`文件中:
+```sh
+set -g default-terminal "screen-256color"
+```
+
 ## 参考文档
 
 * [Easy guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
