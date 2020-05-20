@@ -56,6 +56,18 @@
 
 > 这里必须是按住`Ctrl+b`的同时按`左键`或`右键`
 
+### view history
+
+在tmux的默认环境中,"鼠标滚轮"的事件会被映射称为"上下"按键的功能,因此我们无法直接使用"鼠标滚轮"去查看历史。
+我们可以通过一些快捷键进入`copy mode`,然后通过"上下"按键去查看历史。
+
+| 指令     |  介绍      |
+|---------|------------|
+| `"Ctrl"+b` -->[  | Enter copy mode to copy text or view the history |
+| `q`    |  进入`copy mode`后使用`q`来退出`copy mode`   |
+
+进入`copy mode`之后就可以使用`鼠标滚轮`或者`上下`按键来查看console的历史输出了。
+
 ## 参考文档
 
 * [Easy guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
