@@ -82,6 +82,8 @@ nav:
       - '重定向': shell/shellScript/redirection.md
       - '调试': shell/shellScript/debug.md
       - '常用代码片段': shell/shellScript/shCodeSnippet.md
+    - 'git':
+      - 'clone': shell/linux/tools/git/clone.md
   - '逆向工程':
     - '基础篇':
       - '逆向工程工具': reverseEngine/basicDevtool.md 
