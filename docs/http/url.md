@@ -15,3 +15,10 @@
 我们主要分析下面这个`URL`的构成模块:
 
 * `http://www.example.com:80/path/to/myfile.html?key1=value1&key2=value2#SomewhereInTheDocument`
+
+1. `http`:代表采用的是**http**通讯协议
+2. `www.example.com`为域名，经过DNS解析后,会得到对应的IP地址。
+3. `80`: 为服务的端口号
+4. `/path/to/myfile.html`指向服务器的资源地址。类似于某个物理文件在服务器上的路径
+5. `?key1=value1&key2=value2`是一系列提供给服务器的额外参数,采用key/value对的形式,其中`?`为分隔符,分隔符后的为参数对。服务器可以通过这些额外参数来进行一些额外的处理,生成针对性的资源返回给用户.
+6. `#SomewhereInTheDocument`
