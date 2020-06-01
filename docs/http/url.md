@@ -7,7 +7,7 @@
 
 理解`URL`组件的不同模块能够帮助我们更好的理解`HTTP`.
 
-> 注: 该文主要是阅读https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL 的个人总结。
+> 注: 该文主要是阅读 [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL) 的个人总结。
 > 所以大部分内容也是摘自该处。
 
 ## URL基本形式
