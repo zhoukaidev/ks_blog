@@ -23,3 +23,6 @@
 5. `?key1=value1&key2=value2`是一系列提供给服务器的额外参数,采用key/value对的形式,其中`?`为分隔符,分隔符后的为参数对。服务器可以通过这些额外参数来进行一些额外的处理,生成针对性的资源返回给用户.
 6. `#SomewhereInTheDocument` 代表某个资源文件内部的一个书签,浏览器可以通过该书签自动滑动页面,使得该书签所指向的内容居于浏览器显示区域中间。该标识符不会发送给服务器端。
 
+## 参考文档
+
+* [What is a URL?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
