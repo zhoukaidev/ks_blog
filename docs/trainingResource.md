@@ -26,6 +26,7 @@ Record the link of training resource to save my bad memroy.
 ## Linux
 
 * [linux inside](https://0xax.gitbooks.io/linux-insides/Booting/linux-bootstrap-1.html)
+* [linux-0.12内核完全剖析](https://yifengyou.gitbooks.io/linux-0-12/content/)
 
 ---
 
