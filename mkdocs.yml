@@ -49,7 +49,8 @@ nav:
     - '定制类': python/customizationClass_py.md
     - '类属性/实例属性': python/property_py.md
     - '可调用对象': python/callable_py.md
-    - '进程调用': python/subprocess.md
+    - '进程管理':
+      - 'subprocess': python/subprocess.md
     - '代码片段':
       - '获取版本号': python/codeSnippet/py_ver.md
       - '命令行参数解析': python/codeSnippet/argparse.md
