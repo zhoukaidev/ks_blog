@@ -86,6 +86,7 @@ nav:
     - 'git':
       - 'clone': shell/linux/tools/git/clone.md
       - 'branch': shell/linux/tools/git/branch.md
+      - 'config': shell/linux/tools/git/config.md
   - '逆向工程':
     - '基础篇':
       - '逆向工程工具': reverseEngine/basicDevtool.md 
