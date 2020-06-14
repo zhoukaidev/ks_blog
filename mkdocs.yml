@@ -44,6 +44,7 @@ nav:
     - '进入python世界': python/home.md
     - '定义函数': python/function_py.md
     - '函数参数': python/functionParameter_py.md
+    - '全局变量的使用': python/globalVariable.md
     - '类之封装/继承': python/class_py.md
     - '类之多态/重载': python/class2_py.md
     - '定制类': python/customizationClass_py.md
