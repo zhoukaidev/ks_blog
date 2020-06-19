@@ -55,6 +55,7 @@ nav:
       - 'argparse': python/codeSnippet/argparse.md
       - 'subprocess': python/subprocess.md
       - 'sys': python/library/sys.md
+      - 'os': python/library/os.md
   - 'swift':
     - 'Home: xcode的继续集成': swift/build.md
     - '1.1: 数据类型及变量': swift/basic.md
