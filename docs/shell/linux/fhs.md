@@ -16,3 +16,4 @@ FHS: Filesystem Hierarchy Standard
 
 * [IBM FHS](https://www.ibm.com/developerworks/linux/library/l-lpic1-v3-104-7/)
 * [linuxFoundaton fhs](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html)
+* [Filesystem Hierarchy Standard Specifications Archive](https://refspecs.linuxfoundation.org/fhs.shtml)
