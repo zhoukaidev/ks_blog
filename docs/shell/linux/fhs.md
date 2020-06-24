@@ -8,6 +8,8 @@ FHS: Filesystem Hierarchy Standard
 
 | 目录名称    |  主要用途    |
 |-----------|--------------|
+| `/tmp` | [Temporary file](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch03s18.html)  |
+| `/var/tmp` | [Temporary files preserved between system reboots](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch05s15.html) |
 | `/bin`| Essential user command binaries(for use by all users)|
 |`/etc`| Host-specific system configuration（放置各种配置文件）|
 
