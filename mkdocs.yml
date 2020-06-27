@@ -91,6 +91,7 @@ nav:
       - 'branch': shell/linux/tools/git/branch.md
       - 'config': shell/linux/tools/git/config.md
       - 'tag': shell/linux/tools/git/tag.md
+      - 'gitHubTips': shell/linux/tools/git/githubTips.md
   - '逆向工程':
     - '基础篇':
       - '逆向工程工具': reverseEngine/basicDevtool.md 
