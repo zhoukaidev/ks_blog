@@ -1,0 +1,11 @@
+@startmindmap pythonOverview
+*[#Orange] Python
+**[#LightBlue] Built-in Functions
+**[#LightBlue] Built-in Constants
+**[#LightBlue] Built-in Types
+**[#LightBlue] Built-in Exceptions
+
+left side
+**[#LightGreen] Standard Library
+
+@endmindmap
