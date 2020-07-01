@@ -2,6 +2,10 @@
 
 本文主要介绍与`python`相关的工具及如何进入`python`的世界。
 
+## 基础结构
+
+![PythonOverview](./asset/pythonOverview.PNG)
+
 ## 安装pip
 
 `pip`为python所使用的安装包管理工具，大部分的`第三方开发包`都是借助`pip`进行安装。
