@@ -68,6 +68,9 @@ Record the link of training resource to save my bad memroy.
 
 * **[Practial Binary Analysis](https://practicalbinaryanalysis.com/)**
 
+#### online book
+
+* [Leanpub](https://leanpub.com/)
 
 ---
 
