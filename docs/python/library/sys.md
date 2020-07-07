@@ -10,6 +10,14 @@
 print(sys.platform)
 ```
 
+* 库安装相关
+
+```py
+# 获取与平台独立的软件包的安装路径
+print(sys.prefix)
+# 获取与平台相关的软件包的安装路径
+print(sys.exec_prefix)
+```
 
 ## 参考文档
 
