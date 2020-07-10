@@ -7,6 +7,7 @@
 ### 远程连接
 
   * [ssh](tools/ssh.md)
+  * [ssh-keygen](tools/ssh/ssh-keygen.md)
   
 ### 文件下载
 
