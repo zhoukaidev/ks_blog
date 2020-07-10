@@ -25,3 +25,18 @@ xxxx
 $ ssh-keygen -t dsa
 ```
 
+* 获取指定公钥的fingerprint
+
+```sh
+# 适用 -l 来获取
+# -f 指定公钥文件, -l 指定获取fingerprint
+$ ssh-keygen -l -f xxx.pub
+```
+
+* 指定fingerprint的编码格式
+
+````sh
+# 当使用putty登陆时,显示的fingerprint适用MD5编码进行显示
+# 在ssh-keygen也可以通过 -E 指定显示的格式
+$ ssh-keygen -E md5 -l -f xxx.pub
+``
