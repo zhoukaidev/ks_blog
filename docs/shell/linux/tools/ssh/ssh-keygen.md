@@ -35,8 +35,8 @@ $ ssh-keygen -l -f xxx.pub
 
 * 指定fingerprint的编码格式
 
-````sh
+```sh
 # 当使用putty登陆时,显示的fingerprint适用MD5编码进行显示
 # 在ssh-keygen也可以通过 -E 指定显示的格式
 $ ssh-keygen -E md5 -l -f xxx.pub
-``
+```
