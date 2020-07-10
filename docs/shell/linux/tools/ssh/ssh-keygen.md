@@ -16,3 +16,12 @@ $ ssh-keygen
 xxxx
 ```
 
+* 生成指定类型的密钥
+
+具体支持的类型可以通过`man ssh-keygen`查看。
+
+```sh
+# 生成DSA密钥
+$ ssh-keygen -t dsa
+```
+
