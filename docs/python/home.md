@@ -15,7 +15,13 @@
 * ubuntu
     * 安装python3的pip: `sudo apt-get install python3-pip`
     * 安装python的pip: `sudo apt-get install python-pip`
-  
+    
+* 为pip设置代理
+   通过指定`proxy`参数来设置代理
+   ```sh
+   pip install --proxy=http://web-proxy.us.xxxx:8080 Django
+   ```
+
 ## 参考手册
 
 * [install pip on ubuntu](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/)
