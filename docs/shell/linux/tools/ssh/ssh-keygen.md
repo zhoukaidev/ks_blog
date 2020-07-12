@@ -22,7 +22,10 @@ xxxx
 
 ```sh
 # 生成DSA密钥
+# -t 指定密钥的类型
+# -b 指定密钥的长度
 $ ssh-keygen -t dsa
+$ ssh-keygen -t rsa -b 4096
 ```
 
 * 获取指定公钥的fingerprint
