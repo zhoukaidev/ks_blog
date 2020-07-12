@@ -7,8 +7,10 @@
 * 添加用户
 
   ```sh
+  
   # 添加kaizhou用户
   sudo adduser kaizhou
+  
   ```
   
   * [Create a User account on ubuntu ](https://www.cyberciti.biz/faq/create-a-user-account-on-ubuntu-linux/)
@@ -19,10 +21,12 @@
 * 修改用户组
 
   ```sh
+  
   # 修改用户组
   # 将newUser 添加到sudo用户组
   # -a : 指定将用户追到到用户组
   # -G : 用于指定用户组
+  
   usermod -aG sudo newUser
   ```
   
