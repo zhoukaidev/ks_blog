@@ -8,6 +8,8 @@
 
   * [ssh](tools/ssh.md)
   * [ssh-keygen](tools/ssh/ssh-keygen.md)
+  * [ssh server](tools/ssh/sshd.md)
+  
   
 ### 文件下载
 
