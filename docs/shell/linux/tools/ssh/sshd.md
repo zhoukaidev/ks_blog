@@ -14,8 +14,8 @@ $ systemctl status sshd
 
 ```sh
 # 添加公钥到authorized_key
-cat myPublicKey.pub >> ~/.ssh/authorized_key
+$ cat myPublicKey.pub >> ~/.ssh/authorized_key
 
 # sshd重新读取配置文件
-systemctl reload sshd
+$ systemctl reload sshd
 ```
