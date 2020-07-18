@@ -28,6 +28,7 @@
   # -G : 用于指定用户组
   
   usermod -aG sudo newUser
+  
   ```
   
   * [Create sudo user on ubuntu](https://phoenixnap.com/kb/how-to-create-sudo-user-on-ubuntu)
