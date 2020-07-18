@@ -89,3 +89,7 @@ Record the link of training resource to save my bad memroy.
 ### Windows
 
 * [windows memory management](https://docs.microsoft.com/en-us/windows/win32/memory/memory-management)
+
+### Web Server
+
+* [Gunicron + Nginx](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-18-04)
