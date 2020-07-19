@@ -18,18 +18,12 @@ sudo adduser kaizhou
   
 * 修改用户组
 
-  ```
-  
-  # 修改用户组
-  
-  # 将newUser 添加到sudo用户组
-  
-  # -a : 指定将用户追到到用户组
-  
-  # -G : 用于指定用户组
-  
-  usermod -aG sudo newUser
-  
-  ```
+```sh
+# 修改用户组  
+# 将newUser 添加到sudo用户组  
+# -a : 指定将用户追到到用户组  
+# -G : 用于指定用户组  
+usermod -aG sudo newUser  
+```
   
   * [Create sudo user on ubuntu](https://phoenixnap.com/kb/how-to-create-sudo-user-on-ubuntu)
