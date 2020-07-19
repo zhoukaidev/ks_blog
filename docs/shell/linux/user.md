@@ -6,13 +6,10 @@
 
 * 添加用户
 
-  ```
-  
-  # 添加kaizhou用户    
-  
-  sudo adduser kaizhou
-  
-  ```
+```sh  
+# 添加kaizhou用户    
+sudo adduser kaizhou
+```
   
   * [Create a User account on ubuntu ](https://www.cyberciti.biz/faq/create-a-user-account-on-ubuntu-linux/)
   
