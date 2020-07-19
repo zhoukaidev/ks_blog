@@ -93,3 +93,5 @@ Record the link of training resource to save my bad memroy.
 ### Web Server
 
 * [Gunicron + Nginx](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-18-04)
+* [Nginx configuration](https://medium.com/@jgefroh/a-guide-to-using-nginx-for-static-websites-d96a9d034940)
+
