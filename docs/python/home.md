@@ -23,7 +23,9 @@
    pip install --proxy=http://web-proxy.us.xxxx:8080 Django
    ```
 * 设置virtual environment
-    * `sudo apt-get install python3-venv`
+    ```sh
+    `sudo apt-get install python3-venv`
+    ```
 
 ## 参考手册
 
