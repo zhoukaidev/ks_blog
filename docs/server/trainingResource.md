@@ -6,6 +6,7 @@
 
 ### Nginx
 
+* [Nginx wiki](https://www.nginx.com/resources/wiki/)
 * [Nginx configuration](https://medium.com/@jgefroh/a-guide-to-using-nginx-for-static-websites-d96a9d034940)
 * [Different configuration file path for different OS](https://www.linode.com/docs/web-servers/nginx/how-to-configure-nginx/#server-blocks)
 
