@@ -99,6 +99,7 @@ nav:
       - '逆向工程工具': reverseEngine/basicDevtool.md 
       - '汇编语言': reverseEngine/assembly.md
   - 'Web Server':
+    - '学习资源': server/trainingResource.md
     - 'http':
       - '安全认证方式': http/httpAuthenticate.md
       - 'URL': http/url.md
