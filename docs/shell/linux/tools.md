@@ -24,4 +24,8 @@
 ### 软件编译
 
   * [gcc](tools/gcc.md)
+  
+### systemd管理
+
+  * [digitalocean: systemctl related](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 
