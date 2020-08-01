@@ -70,3 +70,33 @@ print(Student._count)
 ```
 
 从以上结果可以看出，`类属性`所有的对象共享，每个`Student`对象都可以修改该属性。
+
+## 修改类属性
+
+我们无法通过使用对象的方式来修改类属性,当尝试使用对象来修改类属性的时候,实际上发生的事情是为该对象增加了一个新的属性。
+
+修改类属性需要使用`类`来引用该属性。
+
+```py
+class Student(object):
+    name = "Student"
+    def __init__(self, age):
+        self.age = age
+
+stu = Student(13)
+print(stu.name)
+print(stu.age)
+stu.name="mynewname"
+print(stu.name)
+print(Student.name) # 使用类来修改类属性
+```
+
+输出值为:
+
+```py
+Student
+13
+mynewname
+Student
+```
+
