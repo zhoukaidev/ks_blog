@@ -103,3 +103,4 @@ nav:
     - 'http':
       - '安全认证方式': http/httpAuthenticate.md
       - 'URL': http/url.md
+      - 'HTTP method': http/httpMethod.md
