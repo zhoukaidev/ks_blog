@@ -4,4 +4,5 @@
 
 ## 参考文档
 
+* [HTTP request methods form MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 * [PUT vs POST](https://restfulapi.net/rest-put-vs-post/)
