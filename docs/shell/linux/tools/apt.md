@@ -18,3 +18,23 @@
 | `apt-get remove`  | 卸载特定的软件   |
 | `apt-get clean`  |  删除所有已下载的包文件  |
 | `apt-get source`  | 下载特定的软件源代码   |
+
+
+* apt-get(Advanced Package Tool)
+    * sudo apt-get update(used to update datebase)
+    * sudo apt-get upgrade(used to upgrade package)
+    * sudo apt-get upgrade <packageName\>
+    * sudo apt-get install <\pakcageName>
+    * sudo apt-get install <\packageName> --no-upgrade
+    * sudo apt-get install <\packageName> --only-upgrade
+    * sudo apt-get remove <\packageName>
+    * sudo apt-get purge <\packageName>
+    * sudo apt-get clean
+    * sudo apt-get autoclean
+    * sudo apt-get autoremove
+        * installing
+        * upgrading
+        * clean
+* apt-cache
+    * finding new packages
+    * dpkg packaging system
