@@ -18,3 +18,8 @@
 
 * Supervisor
     * [Manage supervisor on ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-supervisor-on-ubuntu-and-debian-vps)
+    
+    
+### Django
+
+* [Understanding static files in django](https://medium.com/@vonkunesnewton/understanding-static-files-in-django-heroku-1b8d2f003977)
