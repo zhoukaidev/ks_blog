@@ -24,3 +24,7 @@
 ### Django
 
 * [Understanding static files in django](https://medium.com/@vonkunesnewton/understanding-static-files-in-django-heroku-1b8d2f003977)
+
+### Vue.js
+
+* [Build SPA by vue, vueify, router, vuex](https://github.com/ratracegrad/meal-prep)
