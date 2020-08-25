@@ -29,3 +29,7 @@
 ### Vue.js
 
 * [Build SPA by vue, vueify, router, vuex](https://github.com/ratracegrad/meal-prep)
+
+### Web Related
+
+* [Web Form resource from MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms)
