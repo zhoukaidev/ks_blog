@@ -27,3 +27,9 @@ git config user.name "myName"
 // 3. 配置针对该仓库的email
 git config user.email "myEmail"
 ```
+
+## 配置编辑器
+
+```sh
+git config --global core.editor "vim"
+```
