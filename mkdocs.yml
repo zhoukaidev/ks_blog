@@ -43,7 +43,6 @@ nav:
   - 'python':
     - '进入python世界': python/home.md
     - 'cpython解释器': python/cpython.md
-    - 'pip': python/pip.md
     - '定义函数': python/function_py.md
     - '函数参数': python/functionParameter_py.md
     - '全局变量的使用': python/globalVariable.md
