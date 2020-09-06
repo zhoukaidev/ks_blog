@@ -25,6 +25,7 @@
 ### Django
 
 * [Understanding static files in django](https://medium.com/@vonkunesnewton/understanding-static-files-in-django-heroku-1b8d2f003977)
+* [Resetting django migrations](https://www.techiediaries.com/resetting-django-migrations/)
 
 ### Vue.js
 
