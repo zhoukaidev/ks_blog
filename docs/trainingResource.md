@@ -93,3 +93,7 @@ Record the link of training resource to save my bad memroy.
 ### Web Server
 
 * [Internal_Link: Web Server development related training resource](server/trainingResource.md)
+
+## The architecture of open source
+
+* [500 lines or less](http://aosabook.org/en/index.html)
