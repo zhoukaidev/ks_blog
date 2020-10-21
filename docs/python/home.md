@@ -35,6 +35,7 @@
 ## 学习资源
 
 * [PyMOTW3: Python3 standard library by example](https://pymotw.com/3/index.html)
+* [Python meta programming](https://medium.com/fintechexplained/advanced-python-metaprogramming-980da1be0c7d)
 
 ### coroutines
 
