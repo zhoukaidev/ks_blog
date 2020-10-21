@@ -9,7 +9,7 @@ theme:
   language: 'zh'
   name: 'material'
   features:
-    - tabs
+    - navigation.tabs
   icon:
     logo: 'material/cloud'
 markdown_extensions:
