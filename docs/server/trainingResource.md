@@ -27,6 +27,10 @@
 * [Understanding static files in django](https://medium.com/@vonkunesnewton/understanding-static-files-in-django-heroku-1b8d2f003977)
 * [Resetting django migrations](https://www.techiediaries.com/resetting-django-migrations/)
 
+### Django Rest Framework(DRF)
+
+* [DRF authentication](https://simpleisbetterthancomplex.com/tutorial/2018/11/22/how-to-implement-token-authentication-using-django-rest-framework.html)
+
 ### Vue.js
 
 * [Build SPA by vue, vueify, router, vuex](https://github.com/ratracegrad/meal-prep)
