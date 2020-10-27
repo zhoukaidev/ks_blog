@@ -29,7 +29,7 @@
 
 ### Django Rest Framework(DRF)
 
-* [DRF authentication](https://simpleisbetterthancomplex.com/tutorial/2018/11/22/how-to-implement-token-authentication-using-django-rest-framework.html)
+* [DRF Token authentication](https://simpleisbetterthancomplex.com/tutorial/2018/11/22/how-to-implement-token-authentication-using-django-rest-framework.html)
 
 ### Vue.js
 
