@@ -38,3 +38,7 @@
 ### Web Related
 
 * [Web Form resource from MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+
+### Restful
+
+* [Restful api practice](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful)
