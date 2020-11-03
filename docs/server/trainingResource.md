@@ -26,6 +26,7 @@
 
 * [Understanding static files in django](https://medium.com/@vonkunesnewton/understanding-static-files-in-django-heroku-1b8d2f003977)
 * [Resetting django migrations](https://www.techiediaries.com/resetting-django-migrations/)
+* [Django url name, namespace,app_name](https://www.webforefront.com/django/namedjangourls.html#:~:text=A%20cleaner%20approach%20supported%20by,described%20earlier%20to%20consolidate%20urls.)
 
 ### Django Rest Framework(DRF)
 
