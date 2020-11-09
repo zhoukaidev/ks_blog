@@ -9,7 +9,7 @@
   * [ssh](tools/ssh.md)
   * [ssh-keygen](tools/ssh/ssh-keygen.md)
   * [ssh server](tools/ssh/sshd.md)
-  
+  * [Config ssh server use key authentication](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
   
 ### 文件下载
 
