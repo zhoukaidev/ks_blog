@@ -7,7 +7,7 @@
 
 `ssh-keygen`支持很多不同的参数组合，我也会随着学习的深入来持续更新该文章。
 
-* 生成RSA密钥
+#### 生成RSA密钥
 
 在不添加任何参数的情况下,默认会生成RAS密钥.
 
@@ -16,7 +16,7 @@ $ ssh-keygen
 xxxx
 ```
 
-* 生成指定类型的密钥
+#### 生成指定类型的密钥
 
 具体支持的类型可以通过`man ssh-keygen`查看。
 
@@ -27,14 +27,14 @@ xxxx
 $ ssh-keygen -t dsa
 $ ssh-keygen -t rsa -b 4096
 ```
-* 指定公私钥的存储路径
+#### 指定公私钥的存储路径
 
 ```sh
 # 此命令会在该文件夹下生成名为testkey的公私钥，类型为4096的rsa
 $ ssh-keygen -t rsa -b 4096 -f ./testkey
 ```
 
-* 获取指定公钥的fingerprint
+#### 获取指定公钥的fingerprint
 
 ```sh
 # 适用 -l 来获取
@@ -42,7 +42,7 @@ $ ssh-keygen -t rsa -b 4096 -f ./testkey
 $ ssh-keygen -l -f xxx.pub
 ```
 
-* 指定fingerprint的编码格式
+#### 指定fingerprint的编码格式
 
 ```sh
 # 当使用putty登陆时,显示的fingerprint适用MD5编码进行显示
