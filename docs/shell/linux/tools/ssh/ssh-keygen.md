@@ -27,6 +27,12 @@ xxxx
 $ ssh-keygen -t dsa
 $ ssh-keygen -t rsa -b 4096
 ```
+* 指定公私钥的存储路径
+
+```sh
+# 此命令会在该文件夹下生成名为testkey的公私钥，类型为4096的rsa
+$ ssh-keygen -t rsa -b 4096 -f ./testkey
+```
 
 * 获取指定公钥的fingerprint
 
