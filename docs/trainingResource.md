@@ -97,3 +97,7 @@ Record the link of training resource to save my bad memroy.
 ## The architecture of open source
 
 * [500 lines or less](http://aosabook.org/en/index.html)
+
+## Docker
+
+* [Set proxy for docker daemon](https://docs.docker.com/config/daemon/systemd/)
