@@ -5,17 +5,14 @@
 ## 指令集
 
 * 添加用户
+  * [Create a User account on ubuntu ](https://www.cyberciti.biz/faq/create-a-user-account-on-ubuntu-linux/)
+  * [What is difference between "adduser" and "useradd"](https://askubuntu.com/questions/345974/what-is-the-difference-between-adduser-and-useradd)
 
 ```sh  
 # 添加kaizhou用户    
 sudo adduser kaizhou
 ```
-  
-  * [Create a User account on ubuntu ](https://www.cyberciti.biz/faq/create-a-user-account-on-ubuntu-linux/)
-  
-  * [What is difference between "adduser" and "useradd"](https://askubuntu.com/questions/345974/what-is-the-difference-between-adduser-and-useradd)
-  
-  
+ 
 * 修改用户组
 
 ```sh
