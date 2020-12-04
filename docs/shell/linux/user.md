@@ -23,4 +23,5 @@ sudo adduser kaizhou
 usermod -aG sudo newUser  
 ```
   
-  * [Create sudo user on ubuntu](https://phoenixnap.com/kb/how-to-create-sudo-user-on-ubuntu)
+* [Create sudo user on ubuntu](https://phoenixnap.com/kb/how-to-create-sudo-user-on-ubuntu)
+* [新加入一个用户组后，如何再不退出shell的情况下加载新的用户组](https://superuser.com/questions/272061/reload-a-linux-users-group-assignments-without-logging-out)
