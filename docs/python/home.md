@@ -18,6 +18,7 @@
     
 * pip设置代理
     * 通过指定`proxy`参数来设置代理
+    * [Set proxy for pip](https://leifengblog.net/blog/how-to-use-pip-behind-a-proxy/)
    
 ```shell
 $ pip install --proxy=http://web-proxy.us.xxxx:8080 Django
