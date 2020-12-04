@@ -18,12 +18,13 @@
     
 * 为pip设置代理
 
-   通过指定`proxy`参数来设置代理
-   ```sh
-   pip install --proxy=http://web-proxy.us.xxxx:8080 Django
-   ```
+   * 通过指定`proxy`参数来设置代理
+     ```sh
+       pip install --proxy=http://web-proxy.us.xxxx:8080 Django
+     ```
+     
 * 设置virtual environment
-    ```sh
+     ```sh
     `sudo apt-get install python3-venv`
     ```
 
