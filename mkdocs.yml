@@ -73,6 +73,7 @@ nav:
     - '2.5: 类型转换': swift/type_casting.md
   - 'linux':
     - 'linux':
+      - 'apt使用': shell/linux/apt.md
       - 'Linux指令': shell/linux/command.md
       - '用户管理': shell/linux/user.md
       - 'sudo vs su': shell/linux/sudo.su.md
