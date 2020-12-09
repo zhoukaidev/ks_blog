@@ -11,3 +11,4 @@ Acqurire {
   HTTP::proxy "<add your proxy address here>"
 }
 ```
+## 添加软件源
