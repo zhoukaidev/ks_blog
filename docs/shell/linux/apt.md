@@ -8,6 +8,6 @@
 
 ```shell
 Acqurire {
-  HTTP::proxy "http://web-proxy.us.softwaregrp.net:8080"
+  HTTP::proxy "<add your proxy address here>"
 }
 ```
