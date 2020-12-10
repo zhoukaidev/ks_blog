@@ -113,5 +113,6 @@ nav:
   - 'Docker':
     - '目录': docker/index.md
     - '安装docker': docker/install.md
+    - '配置docker': docker/config.md
     - 'Dockerfile': docker/dockerfile.md
     
