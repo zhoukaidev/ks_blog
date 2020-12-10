@@ -112,5 +112,6 @@ nav:
       - 'HTTP method': http/httpMethod.md
   - 'Docker':
     - '目录': docker/index.md
+    - '安装docker': docker/install.md
     - 'Dockerfile': docker/dockerfile.md
     
