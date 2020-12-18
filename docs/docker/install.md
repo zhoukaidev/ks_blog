@@ -4,13 +4,13 @@
 
 ## Linux
 
-1. 卸载老版本的docker,老版本的docker被称为`docker`,`docker.io`,`docker-enginee`
+* 卸载老版本的docker,老版本的docker被称为`docker`,`docker.io`,`docker-enginee`
 
 ```sh
 sudo apt-get remove docker docker-enginee docker.io containerd runc
 ```
 
-2. 卸载新版本的`docker`相关软件
+* 卸载新版本的`docker`相关软件
 
 ```sh
 sudo apt-get purge docker-ce docker-ce-cli containerd.io
@@ -19,14 +19,14 @@ sudo apt-get purge docker-ce docker-ce-cli containerd.io
 > 以上指令不会删除image, container, volue,network等，如果想要全新的环境
 > 需要`sudo rm -rf /var/lib/docker`删除相应的文件
 
-3. 安装需要的依赖软件
+* 安装需要的依赖软件
 
 ```sh
 sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 ```
 
-4. 添加docker官方的GPG key
+* 添加docker官方的GPG key
 
 ```sh
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -34,13 +34,13 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 > 验证gpg key: `sudo apt-key fingerprint 0EBFCD88`
 
-5. 添加docker的repository到apt的source里面去
+* 添加docker的repository到apt的source里面去
 
 ```sh
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 ```
 
-6. 更新`apt`及安装docker
+* 更新`apt`及安装docker
 
 ```sh
 sudo apt-get update
