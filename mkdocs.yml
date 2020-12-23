@@ -85,6 +85,7 @@ nav:
       - 'C编译流程': shell/linux/c_compilation.md
       - '实用工具':
         - 'tmux': shell/linux/tools/tmux.md
+        - 'ssh': shell/linux/tools/ssh.md
     - 'shell Script':
       - 'shell script简介': shell/shellScript/home.md
       - '变量': shell/shellScript/variable.md
