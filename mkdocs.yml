@@ -40,6 +40,7 @@ nav:
       - '单例模式_2': C++/others/singleTon_atomic_static_member.md
   - 'javaScript':
     - '对象设计': JS/ObjectOriented.md
+    - 'Events': JS/jsevent.md
   - 'python':
     - '进入python世界': python/home.md
     - 'cpython解释器': python/cpython.md
