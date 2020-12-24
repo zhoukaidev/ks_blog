@@ -120,4 +120,5 @@ nav:
     - '安装docker': docker/install.md
     - '配置docker': docker/config.md
     - 'Dockerfile': docker/dockerfile.md
+    - 'Log管理': docker/logger.md
     
