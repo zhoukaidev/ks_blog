@@ -41,6 +41,7 @@ $ sudo apt-get install python3-venv
 * [Python meta programming](https://medium.com/fintechexplained/advanced-python-metaprogramming-980da1be0c7d)
 * [python magic method](https://medium.com/fintechexplained/advanced-python-what-are-magic-methods-d21891cf9a08)
 * [Inside python virtual machine](https://leanpub.com/insidethepythonvirtualmachine/read)
+* [Magic methods in python](https://rszalski.github.io/magicmethods/)
 
 ### coroutines
 
