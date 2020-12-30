@@ -49,6 +49,31 @@ $ wc -l < users
 
 ## Here Document
 
+> 什么是Here Document?
+
+我们需要先思考一个问题，在我们写`shell script`的时候，我们是希望通过脚本来帮我我们自动化完成一些任务，但是如果我们脚本中调用的程序是需要用户进行交互的，那么该
+如何处理呢?
+
+比如我们在脚本中调用了`vim`工具，我们该如何让`vim`自动修改文件，并保存退出，而不需要我们进行手动进行交互呢。此时就需要我们本小节将要介绍的`Here Document`语法了。
+
+```shell script
+#!/bin/bash
+
+# i代表进入输入描述
+# 紧接这是两行文本输入
+# ^[代表点击ESC,进入normal mode
+# ZZ代表保存并退出
+TARGETFILE=$1
+vim $TARGETFILE <<x23LimitString
+i
+This is line 1 of example file
+This is line 2 of example file
+^[
+ZZ
+x23LimitString
+```
+
+
 请参考[Here-docs](https://tldp.org/LDP/abs/html/here-docs.html)
 
 ## 总结
