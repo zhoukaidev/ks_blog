@@ -47,6 +47,10 @@ $ who > users
 $ wc -l < users
 ```
 
+## Here Document
+
+请参考[Here-docs](https://tldp.org/LDP/abs/html/here-docs.html)
+
 ## 总结
 
 * `>` 为`STDOUT`重定向符， `>>`将`STDOUT`输出追加到一个文件中
