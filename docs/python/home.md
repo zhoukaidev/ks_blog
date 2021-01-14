@@ -29,6 +29,15 @@ $ pip install --proxy=http://web-proxy.us.xxxx:8080 Django
 ```sh
 $ sudo apt-get install python3-venv
 ```
+## Windows上同时安装python2与python3
+
+某些情况下，需要在windows上同时安装python2与python3的版本，我的解决方法是:
+
+1. 先安装python2与python3
+2. 默认情况下python2会安装在PYTHON27的目录下
+3. 通过`where python`的指令找到python的路径
+4. 将python2.x版本的exe改为`python2.exe`
+5. 后续如果需要使用python2,则输入python2, 使用python3直接输入python即可
 
 ## 参考手册
 
