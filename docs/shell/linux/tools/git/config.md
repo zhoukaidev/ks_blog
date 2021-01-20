@@ -33,3 +33,9 @@ git config user.email "myEmail"
 ```sh
 git config --global core.editor "vim"
 ```
+
+## 配置代理
+
+```sh
+git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+```
