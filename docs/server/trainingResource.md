@@ -37,6 +37,10 @@
 
 * [Build SPA by vue, vueify, router, vuex](https://github.com/ratracegrad/meal-prep)
 
+### web security
+
+* [csrf](https://auth0./blog/cross-site-request-forgery-csrf/)
+
 ### Web Related
 
 * [Web Form resource from MDN](https://developer.mozilla.org/en-US/docs/Learn/Forms)
