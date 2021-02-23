@@ -39,7 +39,7 @@
 
 ### web security
 
-* [csrf](https://auth0./blog/cross-site-request-forgery-csrf/)
+* [csrf](https://auth0.com/blog/cross-site-request-forgery-csrf/)
 
 ### Web Related
 
