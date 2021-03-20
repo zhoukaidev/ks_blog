@@ -29,6 +29,11 @@ $ pip install --proxy=http://web-proxy.us.xxxx:8080 Django
 ```sh
 $ sudo apt-get install python3-venv
 ```
+
+## 编写pip package
+
+* [executable package pip install](https://dzone.com/articles/executable-package-pip-install)
+
 ## Windows上同时安装python2与python3
 
 某些情况下，需要在windows上同时安装python2与python3的版本，我的解决方法是:
