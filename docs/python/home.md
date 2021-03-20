@@ -33,6 +33,7 @@ $ sudo apt-get install python3-venv
 ## 编写pip package
 
 * [executable package pip install](https://dzone.com/articles/executable-package-pip-install)
+* [Turn you python code into pip package](https://levelup.gitconnected.com/turn-your-python-code-into-a-pip-package-in-minutes-433ae669657f)
 
 ## Windows上同时安装python2与python3
 
