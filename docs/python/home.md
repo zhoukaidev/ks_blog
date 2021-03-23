@@ -61,3 +61,7 @@ $ sudo apt-get install python3-venv
 ### coroutines
 
 * [The basic of genertors](https://realpython.com/introduction-to-python-generators/)
+
+### Decorator
+
+* [property decorator](https://www.tutorialsteacher.com/python/property-decorator)
