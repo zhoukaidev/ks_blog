@@ -65,3 +65,7 @@ $ sudo apt-get install python3-venv
 ### Decorator
 
 * [property decorator](https://www.tutorialsteacher.com/python/property-decorator)
+
+### others
+
+* [traitlets](https://coderzcolumn.com/tutorials/python/traitlets-eventful-classes-in-python)
