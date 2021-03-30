@@ -10,3 +10,4 @@
 ## 学习资源
 
 * [Manage docker as non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
+* publish port: -p <host port>:<container port>
