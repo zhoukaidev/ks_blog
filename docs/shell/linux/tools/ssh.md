@@ -39,6 +39,7 @@
 | 切换remote machine上路径  |  `cd xxx`  |
 | 切换local machine上的路径 | `lcd xxx`  |
 | 下载remote machine上的文件 | `get remoteFile` |
+| 下载remote machine上的文件夹 | `get -r remotefoler` |
 | 上传local machine上的文件到remote machine | `put localFile` |
 
 #### sftp参考文档
