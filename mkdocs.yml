@@ -121,4 +121,6 @@ nav:
     - '配置docker': docker/config.md
     - 'Dockerfile': docker/dockerfile.md
     - 'Log管理': docker/logger.md
+  - '数据结构与算法':
+    - '简介': algorithms/readme.md
     
