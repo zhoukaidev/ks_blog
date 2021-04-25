@@ -123,4 +123,6 @@ nav:
     - 'Log管理': docker/logger.md
   - '数据结构与算法':
     - '简介': algorithms/readme.md
+  - 'go':
+    - '简介': go/README.md
     
