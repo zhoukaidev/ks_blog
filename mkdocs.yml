@@ -84,6 +84,7 @@ nav:
       - '硬/符号链接': shell/linux/hard_softlink.md
       - 'FHS': shell/linux/fhs.md
       - 'C编译流程': shell/linux/c_compilation.md
+      - 'systemd': shell/linux/systemd.md
       - '实用工具':
         - 'tmux': shell/linux/tools/tmux.md
         - 'ssh': shell/linux/tools/ssh.md
