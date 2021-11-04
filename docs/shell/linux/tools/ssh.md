@@ -41,6 +41,7 @@
 | 下载remote machine上的文件 | `get remoteFile` |
 | 下载remote machine上的文件夹 | `get -r remotefoler` |
 | 上传local machine上的文件到remote machine | `put localFile` |
+| 上传local machine上的文件夹到remote machine | `put -r localFolder` |
 
 #### sftp参考文档
 
