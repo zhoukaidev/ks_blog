@@ -107,4 +107,7 @@ Record the link of training resource to save my bad memroy.
 
 * [Electron tutorial](https://www.electronjs.org/docs/latest/tutorial/quick-start)
 
+## OpenGL
+
+* [learnopengl-cn](https://learnopengl-cn.github.io/)
 
