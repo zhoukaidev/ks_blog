@@ -2,6 +2,13 @@
 
 * [js中类的实现](./ObjectOriented.md)
 
+## npm设置proxy
+
+```sh
+npm config set proxy http://username:password@host:port
+npm config set https-proxy http://username:password@host:port
+```
+
 ## 参考资料
 
 * [JS Modules相关](https://javascript.info/modules-intro)
