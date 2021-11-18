@@ -2,12 +2,17 @@
 
 * [js中类的实现](./ObjectOriented.md)
 
-## npm设置proxy
+## npm
+
+* 设置proxy
 
 ```sh
 npm config set proxy http://username:password@host:port
 npm config set https-proxy http://username:password@host:port
 ```
+
+* [卸载dependency](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
+
 
 ## 参考资料
 
