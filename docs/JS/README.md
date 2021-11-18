@@ -13,6 +13,10 @@ npm config set https-proxy http://username:password@host:port
 
 * [卸载dependency](https://docs.npmjs.com/uninstalling-packages-and-dependencies)
 
+```js
+npm uninstall --save-dev package_name
+npm uninstall --save lodash
+```
 
 ## 参考资料
 
