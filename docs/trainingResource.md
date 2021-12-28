@@ -106,6 +106,7 @@ Record the link of training resource to save my bad memroy.
 ## Electron
 
 * [Electron tutorial](https://www.electronjs.org/docs/latest/tutorial/quick-start)
+* [Install Electron behind proxy](https://stackoverflow.com/questions/60054531/how-can-i-solve-the-connection-problem-during-npm-install-behind-a-proxy)
 
 ## OpenGL
 
