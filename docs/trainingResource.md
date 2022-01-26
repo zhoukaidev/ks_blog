@@ -86,34 +86,53 @@ Record the link of training resource to save my bad memroy.
 
 ---
 
-### Windows
+## Windows
 
 * [windows memory management](https://docs.microsoft.com/en-us/windows/win32/memory/memory-management)
 
-### Web Server
+---
+
+## Web Server
 
 * [Internal_Link: Web Server development related training resource](server/trainingResource.md)
+
+---
 
 ## The architecture of open source
 
 * [500 lines or less](http://aosabook.org/en/index.html)
+
+---
 
 ## Docker
 
 * **Learn Docker in a Month of Launches**
 * [Set proxy for docker daemon](https://docs.docker.com/config/daemon/systemd/)
 
+---
+
 ## Electron
 
 * [Electron tutorial](https://www.electronjs.org/docs/latest/tutorial/quick-start)
 * [Install Electron behind proxy](https://stackoverflow.com/questions/60054531/how-can-i-solve-the-connection-problem-during-npm-install-behind-a-proxy)
 
+---
+
 ## OpenGL
 
 * [learnopengl-cn](https://learnopengl-cn.github.io/)
 
+---
+
 ## 云原生社区
 
 * [cloud native](https://cloudnative.to/)
+
+---
+
+## jupyterLab
+
+* [git pre-commit hook for jupyterlab file](https://medium.com/somosfit/version-control-on-jupyter-notebooks-6b67a0cf12a3)
+
 
 
