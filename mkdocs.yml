@@ -89,6 +89,7 @@ nav:
       - '实用工具':
         - 'tmux': shell/linux/tools/tmux.md
         - 'ssh': shell/linux/tools/ssh.md
+        - 'netstat': shell/linux/tools/netstat.md
     - 'shell Script':
       - 'shell script简介': shell/shellScript/home.md
       - '变量': shell/shellScript/variable.md
