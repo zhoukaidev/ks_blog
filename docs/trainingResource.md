@@ -133,6 +133,7 @@ Record the link of training resource to save my bad memroy.
 ## jupyterLab
 
 * [git pre-commit hook for jupyterlab file](https://medium.com/somosfit/version-control-on-jupyter-notebooks-6b67a0cf12a3)
+* [jupyter use nbconvert clean the output](https://stackoverflow.com/questions/28908319/how-to-clear-jupyter-notebooks-output-in-all-cells-from-the-linux-terminal)
 
 
 
