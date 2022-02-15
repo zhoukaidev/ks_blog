@@ -138,4 +138,5 @@ Record the link of training resource to save my bad memroy.
 ## Deep Learning
 
 * [Basics of machine learning](https://www.tensorflow.org/resources/learn-ml/basics-of-machine-learning)
+    * [COCO dataset format tutorial](https://towardsdatascience.com/how-to-work-with-object-detection-datasets-in-coco-format-9bf4fb5848a4#:~:text=The%20%E2%80%9CCOCO%20format%E2%80%9D%20is%20a,saved%20for%20an%20image%20dataset.&text=Visualizing%20and%20exploring%20your%20dataset,model%20on%20your%20COCO%20dataset)
 
