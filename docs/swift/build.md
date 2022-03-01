@@ -145,3 +145,4 @@ $ xcodebuild -exportArchive -archivePath myArchive.xcarchive\
 * [Understanding Digital Certificates and Code signing](https://www.oracle.com/technetwork/java/javase/documentation/digitalcerts-codesigning-4312830.html)
 * [CACS-Cdoe-Signing](https://casecurity.org/wp-content/uploads/2016/12/CASC-Code-Signing.pdf)
 * [xcodebuild](https://developer.apple.com/library/archive/technotes/tn2339/_index.html#//apple_ref/doc/uid/DTS40014588-CH1-HOW_DO_I_ARCHIVE_AND_EXPORT_MY_APP_FOR_DISTRIBUTION_)
+* [How to check the universal macOS binary](https://developer.apple.com/documentation/apple-silicon/building-a-universal-macos-binary)
