@@ -21,3 +21,7 @@ $ pip install myPackage --proxy=http://proxyurl:port
 ```sh
 $ pip install myPackage=0.1.0
 ```
+
+* 设置镜像
+
+参考 https://blog.csdn.net/u012887259/article/details/102804707
