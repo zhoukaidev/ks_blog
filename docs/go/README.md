@@ -2,6 +2,13 @@
 
 `go`语言基础介绍。
 
+* 设置镜像
+
+```sh
+$ go env -w GO111MODULE=on
+$ go env -w GOPROXY=https://goproxy.cn,direct
+```
+
 
 ## 参考文档
 
