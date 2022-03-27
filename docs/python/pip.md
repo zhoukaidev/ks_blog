@@ -24,4 +24,18 @@ $ pip install myPackage=0.1.0
 
 * 设置镜像
 
+```sh
+#临时使用
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+
+# 设为默认
+python -m pip install --upgrade pip
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+#使用清华镜像升级pip
+python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
+```
+
+[使用清华镜像](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)
+
 参考 https://blog.csdn.net/u012887259/article/details/102804707
