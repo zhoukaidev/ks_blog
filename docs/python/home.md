@@ -66,6 +66,10 @@ $ sudo apt-get install python3-venv
 
 * [property decorator](https://www.tutorialsteacher.com/python/property-decorator)
 
+### Bytes
+
+* [bytes VS bytearray](https://www.dotnetperls.com/bytes-python)
+
 ### others
 
 * [traitlets](https://coderzcolumn.com/tutorials/python/traitlets-eventful-classes-in-python)
