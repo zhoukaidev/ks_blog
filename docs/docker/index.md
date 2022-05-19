@@ -12,3 +12,4 @@
 * [Manage docker as non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
 * publish port: -p "host port":"container port"
 * [rabbitmq port](https://medium.com/dev-genius/rabbitmq-with-docker-on-windows-in-30-minutes-172e88bb0808#:~:text=15672%20is%20the%20default%20port,5672%20for%20RabbitMQ%20message%20broker.)
+* [docker start container policy](https://docs.docker.com/config/containers/start-containers-automatically/)
