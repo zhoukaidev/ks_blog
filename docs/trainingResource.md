@@ -141,3 +141,7 @@ Record the link of training resource to save my bad memroy.
     * [COCO dataset format tutorial](https://towardsdatascience.com/how-to-work-with-object-detection-datasets-in-coco-format-9bf4fb5848a4#:~:text=The%20%E2%80%9CCOCO%20format%E2%80%9D%20is%20a,saved%20for%20an%20image%20dataset.&text=Visualizing%20and%20exploring%20your%20dataset,model%20on%20your%20COCO%20dataset)
 * [NMS tutorial](https://learnopencv.com/non-maximum-suppression-theory-and-implementation-in-pytorch/)
 
+## ffmpeg
+
+* [video bitrate](https://filmora.wondershare.com/video-editing-tips/what-is-video-bitrate.html#:~:text=What%20is%20the%20video%20bitrate%3F,kilobits%20per%20second)%20x%20duration.)
+
