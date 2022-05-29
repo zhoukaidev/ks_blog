@@ -143,5 +143,5 @@ Record the link of training resource to save my bad memroy.
 
 ## ffmpeg
 
-* [video bitrate](https://filmora.wondershare.com/video-editing-tips/what-is-video-bitrate.html#:~:text=What%20is%20the%20video%20bitrate%3F,kilobits%20per%20second)%20x%20duration.)
+* video bitrate: https://filmora.wondershare.com/video-editing-tips/what-is-video-bitrate.html#:~:text=What%20is%20the%20video%20bitrate%3F,kilobits%20per%20second)%20x%20duration.
 
