@@ -13,6 +13,7 @@ $ go env -w GOPROXY=https://goproxy.cn,direct
 ## 参考文档
 
 * [go modules](https://medium.com/@adiach3nko/package-management-with-go-modules-the-pragmatic-guide-c831b4eaaf31)
+* [go modules2](https://www.digitalocean.com/community/tutorials/how-to-use-go-modules)
 * [package name vs directory name](https://golangbyexample.com/package-folder-name-golang/)
 * [digitalocean: how to use go modules](https://www.digitalocean.com/community/tutorials/how-to-use-go-modules)
 
