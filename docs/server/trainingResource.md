@@ -48,3 +48,8 @@
 ### Restful
 
 * [Restful api practice](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful)
+
+### Self-signed certificate
+
+* [Generate self signed CA certificate](https://www.ibm.com/docs/en/runbook-automation?topic=certificate-generate-root-ca-key)
+* [generate service side certificate and signed by certificate](https://gist.github.com/fntlnz/cf14feb5a46b2eda428e000157447309)
