@@ -89,6 +89,7 @@ Record the link of training resource to save my bad memroy.
 ## Windows
 
 * [windows memory management](https://docs.microsoft.com/en-us/windows/win32/memory/memory-management)
+* [windbg tutorial](https://stackoverflow.com/questions/4946685/good-tutorial-for-windbg)
 
 ---
 
