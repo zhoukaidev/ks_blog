@@ -86,6 +86,7 @@ nav:
       - 'FHS': shell/linux/fhs.md
       - 'C编译流程': shell/linux/c_compilation.md
       - 'systemd': shell/linux/systemd.md
+      - '图形文本界面切换': shell/linux/gui.md
       - '实用工具':
         - 'tmux': shell/linux/tools/tmux.md
         - 'ssh': shell/linux/tools/ssh.md
