@@ -20,6 +20,7 @@ $ go env -w GOPROXY=https://goproxy.cn,direct
 ## Tutorial
 
 * [gobyexample](https://gobyexample.com/)
+* [golang in action](https://livebook.manning.com/book/go-in-action/chapter-5/71)
 
 ### Channel
 
