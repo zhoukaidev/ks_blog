@@ -147,3 +147,6 @@ Record the link of training resource to save my bad memroy.
 * [video bitrate](https://filmora.wondershare.com/video-editing-tips/what-is-video-bitrate.html#:~:text=What%20is%20the%20video%20bitrate%3F,kilobits%20per%20second)%20x%20duration.)
 * [Difference between bitrate and resolution](https://www.cdnetworks.com/media-delivery-blog/bitrate-vs-resolution/)
 
+## 计算机图像学
+
+* [GAMES 101](https://games-cn.org/gamescoursescollection/)
