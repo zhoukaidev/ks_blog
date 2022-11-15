@@ -14,11 +14,17 @@ $ conda create --name myEnvironmentName python==3.7.0
 * 激活指定的环境
 
 ```sh
-$ conda activate myEnvironment
+$ conda activate myEnvironmentName
 ```
 
 * 退出相应的环境
 
 ```sh
 $ conda deactivate
+```
+
+* 删除相应的环境
+
+```sh
+$ conda env remove -n myEnvironmentName
 ```
