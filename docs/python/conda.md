@@ -10,3 +10,15 @@
 #指定环境的名称和python的版本，其中python版本可以忽略
 $ conda create --name myEnvironmentName python==3.7.0
 ```
+
+* 激活指定的环境
+
+```sh
+$ conda activate myEnvironment
+```
+
+* 退出相应的环境
+
+```sh
+$ conda deactivate
+```
