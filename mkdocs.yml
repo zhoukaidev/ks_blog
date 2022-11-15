@@ -58,6 +58,7 @@ nav:
     - '模块和包': python/module.md
     - 'SQLite': python/sqlite.md
     - '文件操作': python/files.md
+    - 'conda': python/conda.md
     - '标准库':
       - '获取版本号': python/codeSnippet/py_ver.md
       - 'argparse': python/codeSnippet/argparse.md
