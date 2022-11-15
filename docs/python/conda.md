@@ -16,6 +16,11 @@ $ conda create --name myEnvironmentName python==3.7.0
 ```sh
 $ conda activate myEnvironmentName
 ```
+* 基于yml文件创建环境
+
+```sh
+$ conda env create --file myEnvironment.yml
+```
 
 * 退出相应的环境
 
