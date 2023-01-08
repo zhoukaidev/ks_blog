@@ -130,4 +130,6 @@ nav:
     - '简介': algorithms/readme.md
   - 'go':
     - '简介': go/README.md
+  - '数学基础'
+    - '简介': math/first.md
     
