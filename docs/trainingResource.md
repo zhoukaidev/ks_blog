@@ -151,3 +151,5 @@ Record the link of training resource to save my bad memroy.
 
 * [GAMES 101](https://games-cn.org/gamescoursescollection/)
 * [Learn webgl(perfect)](http://learnwebgl.brown37.net/index.html)
+* [lane detection_1](https://www.hackster.io/kemfic/simple-lane-detection-c3db2f)
+* [curved lane detection_2](https://www.hackster.io/kemfic/curved-lane-detection-34f771)
