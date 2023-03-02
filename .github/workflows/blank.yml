@@ -41,7 +41,7 @@ jobs:
           git config --global user.email "zhoukaisspu@163.com"
           cd zhoukaisspu.github.io
           git remote rm origin
-          git remote add origion https://zhoukaisspu@163.com:${{ secrets.DEPLOYTOKEN }}/github.com/zhoukaisspu/zhoukaisspu.github.io.git
+          git remote add origin https://zhoukaisspu@163.com:${{ secrets.DEPLOYTOKEN }}/github.com/zhoukaisspu/zhoukaisspu.github.io.git
           mkdocs gh-deploy --config-file ../ks_blog/mkdocs.yml --remote-branch master
 
       # Runs a set of commands using the runners shell
