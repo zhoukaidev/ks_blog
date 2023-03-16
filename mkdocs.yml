@@ -93,6 +93,8 @@ nav:
         - 'tmux': shell/linux/tools/tmux.md
         - 'ssh': shell/linux/tools/ssh.md
         - 'netstat': shell/linux/tools/netstat.md
+      - '树莓派':
+        - 'vnc配置': shell/linux/raspberrypi/vnc.md
     - 'shell Script':
       - 'shell script简介': shell/shellScript/home.md
       - '变量': shell/shellScript/variable.md
