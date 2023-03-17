@@ -11,6 +11,9 @@
     * ssh-copy-id installs an SSH key on a server as an authorized key. Its purpose is to provide access without requiring a password for each login. This facilitates automated, passwordless logins and single sign-on using the SSH protocol.
     * [ssh-copy-id参考文档](ssh-copy-id installs an SSH key on a server as an authorized key. Its purpose is to provide access without requiring a password for each login. This facilitates automated, passwordless logins and single sign-on using the SSH protocol.)
 * 在服务器上面安装完成相应的public key之后，可以关掉账户名密码的登录方式，来增加系统的安全性
+    * `sudo vim /etc/ssh/sshd_config`
+    * 设置 `PasswordAuthentication no`
+    * `sudo systemctl reload sshd.service`
 * 使用你的private key来登录远端的系统
     * `ssh -i ./your_private  usrename@server_ip_address`
 #### 生成RSA密钥
