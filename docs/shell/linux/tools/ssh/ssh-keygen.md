@@ -61,3 +61,8 @@ $ ssh-keygen -l -f xxx.pub
 # 在ssh-keygen也可以通过 -E 指定显示的格式
 $ ssh-keygen -E md5 -l -f xxx.pub
 ```
+
+### 参考文档 
+
+* [How to configure ssh key based authentication on linux](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
+* [Configure ssh key based authentication on raspberry pi](https://www.geekyhacker.com/2021/02/15/configure-ssh-key-based-authentication-on-raspberry-pi/)
