@@ -89,6 +89,9 @@ nav:
       - 'systemd': shell/linux/systemd.md
       - 'hostname': shell/linux/hostname.md
       - '图形文本界面切换': shell/linux/gui.md
+      - 'ssh服务':
+        - 'sshd': shell/linux/ssh/sshd.md
+        - 'ssh-keygen': shell/linux/ssh/ssh-keygen.md
       - '实用工具':
         - 'tmux': shell/linux/tools/tmux.md
         - 'ssh': shell/linux/tools/ssh.md

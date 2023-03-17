@@ -3,13 +3,18 @@
 `ssh-keygen`是用于生成,管理以及转换授权密钥的工具。
 
 
-## 指令
+## 操作流程
 
-`ssh-keygen`支持很多不同的参数组合，我也会随着学习的深入来持续更新该文章。
+* `ssh-keygen`支持很多不同的参数组合,用于生成可以用于登录的rsa key pairs
+* 生成相应的key之后，可以使用`ssh-copy-id`参数来讲相应的public key文件安装到远端服务器上
+    * `ssh-copy-id -i ~/.ssh/my.pub myusrname@server-ip-address`
+    * ssh-copy-id installs an SSH key on a server as an authorized key. Its purpose is to provide access without requiring a password for each login. This facilitates automated, passwordless logins and single sign-on using the SSH protocol.
+    * [ssh-copy-id参考文档](ssh-copy-id installs an SSH key on a server as an authorized key. Its purpose is to provide access without requiring a password for each login. This facilitates automated, passwordless logins and single sign-on using the SSH protocol.)
+* 在服务器上面安装完成相应的public key之后，可以关掉账户名密码的登录方式，来增加系统的安全性
 
 #### 生成RSA密钥
 
-在不添加任何参数的情况下,默认会生成RAS密钥.
+在不添加任何参数的情况下,默认会生成RSA密钥.
 
 ```sh
 $ ssh-keygen
@@ -32,9 +37,15 @@ $ ssh-keygen -t rsa -b 4096
 ```sh
 # 此命令会在该文件夹下生成名为testkey的公私钥，类型为4096的rsa
 $ ssh-keygen -t rsa -b 4096 -f ./testkey
+# -C参数可以指定相应的comment
+$ ssh-keygen -t rsa -b 4096 -C myname@example.com
 ```
 
 #### 获取指定公钥的fingerprint
+
+The fingerprint is based on the host's public key, usually based on the /etc/ssh/ssh_host_rsa_key.pub file.  Generally it's for easy identification/verification of the host you are connecting to.
+
+If the fingerprint changes, the machine you are connecting to has changed their public key. 
 
 ```sh
 # 适用 -l 来获取
