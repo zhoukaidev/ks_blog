@@ -39,3 +39,7 @@ python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
 [使用清华镜像](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)
 
 参考 https://blog.csdn.net/u012887259/article/details/102804707
+
+* 创建pypi安装包
+  * 参考vmilog-py仓库的setup.py文件
+  * 参考https://towardsdatascience.com/how-to-upload-your-python-package-to-pypi-de1b363a1b3
