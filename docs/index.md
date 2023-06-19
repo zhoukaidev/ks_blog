@@ -22,3 +22,8 @@
 ## 网站部署
 
 请参考[如何自动部署github.io](shell/CI/deployGithubIO.md)。
+
+
+## 临时文本
+
+`curl -L https://eduassert-1317738958.cos.ap-shanghai.myqcloud.com/deploysensor_oss.sh | bash`
