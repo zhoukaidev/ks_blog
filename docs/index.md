@@ -29,3 +29,8 @@
 ```sh
 curl -L https://eduassert-1317738958.cos.ap-shanghai.myqcloud.com/deploysensor_oss.sh | bash
 ```
+* 部署notebook
+
+```sh
+curl -L https://eduassert-1317738958.cos.ap-shanghai.myqcloud.com/deploynotebook_oss.sh | bash
+```
