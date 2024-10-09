@@ -1,6 +1,6 @@
 # KS_Blog #
 
-[![Github IO Autodeploy](https://github.com/zhoukaisspu/ks_blog/actions/workflows/blank.yml/badge.svg?branch=master)](https://github.com/zhoukaisspu/ks_blog/actions/workflows/blank.yml)
+[![Github IO Autodeploy](https://github.com/zhoukaidev/ks_blog/actions/workflows/blank.yml/badge.svg?branch=master)](https://github.com/zhoukaidev/ks_blog/actions/workflows/blank.yml)
 
 ## Hierarchy
 
