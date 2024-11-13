@@ -2,6 +2,9 @@
 
 本文主要临时记录龙芯教育派相关备忘
 
+## 实用命令
+
+* 将loongson添加到sudo, `sudo usermod -a -G sudo loongson`
 
 ## 网址
 
