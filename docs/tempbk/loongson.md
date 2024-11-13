@@ -4,6 +4,9 @@
 
 ## 实用命令
 
+设备登录用户名和密码都是loongson
+
+
 * 将loongson添加到sudo, `sudo usermod -a -G sudo loongson`
 
 ## 网址
