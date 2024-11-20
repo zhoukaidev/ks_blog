@@ -39,6 +39,14 @@ Page segmentation modes:
        bypassing hacks that are Tesseract-specific.
 ```
 
+### OCR Engine models
+
+* models
+    * 0:  Legacy engine only
+    * 1:  Neural nets LSTM engine only
+    * 2:  Legacy + LSTM engines
+    * 3:  Default, based on what is available
+
 ### 编译
 
 * 安装`visual studio`,并通过`visual studio installer`安装cmake工具
@@ -76,3 +84,21 @@ Change them to release by removing the letter "d"
     * 针对高级用户，提供的其他更加丰富的配置选项
 * `tesseract.exe imagename output --oem 1 -l eng --psm 1`
     * 识别指定的文件，并按照指定格式进行输出
+
+## 图像预处理
+
+* 参考文档
+    * https://medium.com/@maahip1304/the-complete-guide-to-image-preprocessing-techniques-in-python-dca30804550c
+    * https://sigmoidal.ai/en/histogram-equalization-with-opencv-and-python/#:~:text=equalizeHist()%20function%20in%20OpenCV,uniformly%20across%20the%20intensity%20range.
+* Resizing
+    * 将图像调整为统一大小的尺寸
+* Garyscaling
+    * 将彩色的图像转换成灰度图，可以简化图像的数据和降低计算资源的使用
+* Noise reduction
+    * Smoothing, blurring, and filtering techniques can be applied to remove unwanted noise from images. The GaussianBlur () and medianBlur () methods are commonly used for this.
+* Normalization
+    * Normalization adjusts the intensity values of pixels to a desired range, often between 0 to 1. This can improve the performance of machine learning models. Normalize () from scikit-image can be used for this.
+* Binarization
+    * Binarization converts grayscale images to black and white by thresholding. The threshold () method is used to binarize images in OpenCV.
+* Contrast enhancement
+    *  The contrast of images can be adjusted using histogram equalization. The equalizeHist () method enhances the contrast of images.
