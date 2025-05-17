@@ -30,11 +30,13 @@ jobs:
           # Version range or exact version of Python or PyPy to use, using SemVer's version range syntax. Reads from .python-version if unset.
           python-version: 3.x
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Setup Python environment
         run: |
           pip3 install mkdocs
           mkdocs --version
           pip3 install mkdocs-material
+      - name: Clonse github.io repository
+        run: |
           cd ..
           git clone https://github.com/zhoukaidev/zhoukaidev.github.io.git
           git config --global user.name "Kai.zhou"
@@ -42,10 +44,6 @@ jobs:
           cd zhoukaidev.github.io
           git remote rm origin
           git remote add origin https://zhoukaidev:${{ secrets.DEPLOYTOKEN }}@github.com/zhoukaidev/zhoukaidev.github.io.git
-          mkdocs gh-deploy --config-file ../ks_blog/mkdocs.yml --remote-branch master
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name Deploy github.io pages
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          mkdocs gh-deploy --config-file ../ks_blog/mkdocs.yml --remote-branch master
