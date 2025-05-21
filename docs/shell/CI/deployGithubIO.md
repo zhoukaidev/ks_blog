@@ -38,6 +38,11 @@ mkdocs, version 1.0 from YOUR/INSTALL/PATH
     在实际的配置过程中,可以使用`mkdocs serve`来命令来预览生成的站点样式。
     详细内容请参考[mkdocs serve命令](https://www.mkdocs.org/#getting-started).
 
+
+!!! note
+    后续的"网站自动部署"相关内容已经过时，目前已经完全迁移到使用`github action`工具来进行自动化部署，
+    后续有时间会更新该部分内容
+    
 ## 网站自动部署
 
 网站的自动部署过程是借助[Travis-CI](https://travis-ci.org/)来完成的。
