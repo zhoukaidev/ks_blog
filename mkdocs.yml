@@ -138,6 +138,7 @@ nav:
   - 'Golang':
     - '简介': go/README.md
     - '并发编程简述': go/concurrency.md
+    - '并发之Mutext': go/mutex.md
   - '数学基础':
     - '简介': math/first.md
   - 'AI':
