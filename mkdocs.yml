@@ -38,6 +38,8 @@ nav:
     - 'C++技术总结':
       - '单例模式': C++/others/singleTon_mutex_call_once.md
       - '单例模式_2': C++/others/singleTon_atomic_static_member.md
+    - 'C++新特性':
+      - 'c++14新特性': C++/c++14/c++14.md
   - 'javaScript':
     - '进入JS世界': JS/README.md
     - '对象设计': JS/ObjectOriented.md
