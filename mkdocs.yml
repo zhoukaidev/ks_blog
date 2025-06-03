@@ -77,7 +77,7 @@ nav:
     - '2.4: 类subscript': swift/class_subscript.md
     - '2.5: 类型转换': swift/type_casting.md
   - 'linux':
-    - 'linux':
+    - '使用手册':
       - 'apt使用': linux/linux/apt.md
       - '用户管理': linux/linux/user.md
       - '网络接口': linux/linux/networkInterface.md
@@ -101,6 +101,8 @@ nav:
         - 'netstat': linux/linux/tools/netstat.md
       - '树莓派':
         - 'vnc配置': linux/linux/raspberrypi/vnc.md
+    - '驱动开发':
+      - '驱动开发简介': linux/driver/driverIntro.md
     - 'shell Script':
       - 'shell script简介': linux/shellScript/home.md
       - '变量': linux/shellScript/variable.md
