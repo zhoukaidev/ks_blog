@@ -102,7 +102,7 @@ nav:
       - '树莓派':
         - 'vnc配置': linux/linux/raspberrypi/vnc.md
     - '驱动开发':
-      - '驱动开发简介': linux/driver/driverIntro.md
+      - '驱动开发简介': linux/driver/tutorial_1.md
     - 'shell Script':
       - 'shell script简介': linux/shellScript/home.md
       - '变量': linux/shellScript/variable.md
