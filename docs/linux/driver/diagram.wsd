@@ -1,0 +1,15 @@
+@startmindmap
+* 硬件系统
+** 磁盘
+** 内存
+** CPU
+*** APIC Timer
+** RTC
+** 其他输入输出设备
+
+left side
+** 系统内核
+*** 用户层软件
+*** 硬件中断处理
+
+@endmindmap
