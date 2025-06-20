@@ -1,0 +1,28 @@
+@startmindmap
+* python
+** 基本数据类型
+*** str
+*** int/float
+*** list
+*** map
+*** tuple
+*** set
+** class
+*** 定义类方法
+*** 装饰器
+**** @property
+**** @staticmethod
+**** @classmethod
+*** 定制类
+**** ~__len__
+**** ~__next__
+**** ~__iter__
+**** ~__getattr__
+**** ~__getitem__
+*** 继承与多态
+**** super()方法
+**** C3 linearization algorithm
+** metaclass
+** function
+
+@endmindmap
