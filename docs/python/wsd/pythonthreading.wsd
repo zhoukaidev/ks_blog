@@ -1,0 +1,7 @@
+@startmindmap
+* multi-thread
+*** threading.lock
+*** threading.Condition
+*** from queue import Queue(线程安全队列)
+*** threading.Semaphore
+@endmindmap
