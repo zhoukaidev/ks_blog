@@ -3,10 +3,8 @@
 ** 基本数据类型
 *** str
 *** int/float
-*** list
-*** map
-*** tuple
-*** set
+*** list / tuple / set
+*** dict
 ** class
 *** 定义类方法
 *** 装饰器
@@ -22,7 +20,86 @@
 *** 继承与多态
 **** super()方法
 **** C3 linearization algorithm
-** metaclass
+**:metaclass
+<code>
+//使用class创建object
+//使用metaclass创建不同的class类型
+class ModelMetaClass(type):
+    def __new__(cls,name, bases, attrs):
+        if name == "Modle":
+            return type.__new__(cls, name, bases, attrs)
+        print("Found modle: %s" % name)
+        mapping = dict()
+        for k, v in attrs.items():
+            if isinstance(v, Field):
+                print('Found mapping: %s ==> %s' %(k, v))
+                mapping[k] = v
+        for k in mapping.keys():
+            attrs.pop(k)
+        attrs['__mappings__'] = mapping
+        print(mapping)
+        attrs['__table__'] = name
+        return type.__new__(cls, name, bases, attrs)
+</code>
+;
 ** function
+***:定义装饰器
+<code>
+def addlog(func):
+   def wrapper(*args, **kw):
+       print("addlog start")
+       func(*args, **kw)
+       print("addlog end")
+   return wrapper
 
+def addtime(func):
+    def wrapper(*args, **kw):
+       print("addtime called")
+       func(*args, **kw)
+       print("addtime end")
+    return wrapper
+
+@addlog
+@addtime
+def myfun():
+   print("call myfunc")
+</code>
+;
+*** 函数参数
+****:位置参数
+<code>
+def myfunc(a,b){}
+</code>
+;
+****:可变参数
+<code>
+//使用*args的形式
+def myfunc(a, b, *args){}
+</code>
+;
+****:关键字参数
+<code>
+//**kw定义可变关键字参数
+def myfunc(a, b, **kw){}
+</code>
+;
+****:命名关键字参数
+<code>
+//city, name为命名关键字参数
+//注意和关键字参数的区别，这里如果city,name没有默认值，
+//则调用的时候必须传入这两个命名关键字参数
+def myfunc(a, b, *, city, name){}
+</code>
+;
+***:偏函数
+<code>
+functools.partial(funcanme, para1=1)
+</code>
+;
+** asyncio
+*** 单独章节划分
+** multi-thread
+*** 单独章节划分
+** multi-process
+*** 单独章节划分
 @endmindmap
