@@ -1,0 +1,13 @@
+@startmindmap
+* asyncio
+** Future
+** Task
+** EventLoop
+**:concurrent.futures
+<code>
+import concurrent.futures
+</code>
+;
+*** concurrent.futures.ThreadPoolExecutor
+*** concurrent.futures.ProcessPoolExecutor
+@endmindmap
