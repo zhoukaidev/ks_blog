@@ -4,4 +4,6 @@
 *** threading.Condition
 *** from queue import Queue(线程安全队列)
 *** threading.Semaphore
+*** threading.Event
+*** ThreadPool(from multiprocessing.pool import ThreadPool)
 @endmindmap
