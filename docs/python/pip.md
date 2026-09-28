@@ -43,3 +43,21 @@ python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
 * 创建pypi安装包
   * 参考vmilog-py仓库的setup.py文件
   * 参考https://towardsdatascience.com/how-to-upload-your-python-package-to-pypi-de1b363a1b3
+
+## Feature extras
+
+```sh
+# Optional dependencies
+[project.optional-dependencies]
+
+# ── Feature-scoped extras ──────────────────────────────────
+lancedb = [
+    "lerobot[dataset]",
+    "lancedb>=0.37.1,<0.40.0",
+]
+lancedb-convert = [
+    "lerobot[lancedb]",
+    "lerobot-lancedb>=0.3.1,<0.4.0",
+]
+```
+通过以上方式，在`pyprojects.toml`中指定可选功能的安装
